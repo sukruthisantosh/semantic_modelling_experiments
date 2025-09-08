@@ -1,0 +1,2155 @@
+{
+    "facts": [
+        {
+            "name": "bid loss daily",
+            "descriptions": [
+                "daily bid loss activity"
+            ],
+            "activity_type": "Unknown"
+        },
+        {
+            "name": "hourly demand",
+            "descriptions": [
+                "a record of hourly demand activity"
+            ],
+            "activity_type": "Demand"
+        },
+        {
+            "name": "hourly supply",
+            "descriptions": [
+                "a record of hourly supply activity"
+            ],
+            "activity_type": "Supply"
+        },
+        {
+            "name": "forwarded deal daily demand",
+            "descriptions": [
+                "a record of daily demand involving forward deals"
+            ],
+            "activity_type": "Demand"
+        },
+        {
+            "name": "forwarded deal supply activity",
+            "descriptions": [
+                "a record of daily supply involving forward deals"
+            ],
+            "activity_type": "Supply"
+        },
+        {
+            "name": "ix daily demand activity",
+            "descriptions": [
+                "a record of daily demand about ix"
+            ],
+            "activity_type": "Demand"
+        },
+        {
+            "name": "ix daily supply activity",
+            "descriptions": [
+                "a record of daily supply about ix"
+            ],
+            "activity_type": "Supply"
+        },
+        {
+            "name": "os daily demand activity",
+            "descriptions": [
+                "a record of daily demand about os versions"
+            ],
+            "activity_type": "Demand"
+        },
+        {
+            "name": "os daily supply activity",
+            "descriptions": [
+                "a record of daily supply about os versions"
+            ],
+            "activity_type": "Supply"
+        },
+        {
+            "name": "publisher overview daily demand activity",
+            "descriptions": [
+                "a record of daily demand about publisher overview"
+            ],
+            "activity_type": "Demand"
+        },
+        {
+            "name": "publisher overview daily supply activity",
+            "descriptions": [
+                "a record of daily supply about publisher overview"
+            ],
+            "activity_type": "Supply"
+        },
+        {
+            "name": "sdk daily demand activity",
+            "descriptions": [
+                "a record of daily demand about sdks"
+            ],
+            "activity_type": "Demand"
+        },
+        {
+            "name": "sdk daily supply activity",
+            "descriptions": [
+                "a record of daily supply about sdks"
+            ],
+            "activity_type": "Supply"
+        },
+        {
+            "name": "template daily",
+            "descriptions": [
+                "template data at daily level"
+            ],
+            "activity_type": "Unknown"
+        },
+        {
+            "name": "csm data",
+            "descriptions": [
+                "csm data"
+            ],
+            "activity_type": "Unknown"
+        }
+    ],
+    "dimensions": [
+        {
+            "name": "Country",
+            "descriptions": [
+                "List of countries for where events originate"
+            ],
+            "activity_types": [
+                "Supply",
+                "Demand"
+            ]
+        },
+        {
+            "name": "Inventory Channel",
+            "descriptions": [
+                "The demand channel"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Integration Direct",
+            "descriptions": [
+                "Integration Direct"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Integration Method",
+            "descriptions": [
+                "Integration Method"
+            ],
+            "activity_types": [
+                "Supply",
+                "Demand"
+            ]
+        },
+        {
+            "name": "HB MCO",
+            "descriptions": [
+                "HB MCO"
+            ],
+            "activity_types": [
+                "Supply",
+                "Demand"
+            ]
+        },
+        {
+            "name": "OS Type",
+            "descriptions": [
+                "OS Type"
+            ],
+            "activity_types": [
+                "Supply",
+                "Demand"
+            ]
+        },
+        {
+            "name": "Placement Type",
+            "descriptions": [
+                "Placement Type"
+            ],
+            "activity_types": [
+                "Supply",
+                "Demand"
+            ]
+        },
+        {
+            "name": "Rewarded Slot",
+            "descriptions": [
+                "Rewarded Slot"
+            ],
+            "activity_types": [
+                "Supply",
+                "Demand"
+            ]
+        },
+        {
+            "name": "Limit Ad Tracking",
+            "descriptions": [
+                "Limit Ad Tracking"
+            ],
+            "activity_types": [
+                "Supply",
+                "Demand"
+            ]
+        },
+        {
+            "name": "Agg. Account",
+            "descriptions": [
+                "Aggregate Account"
+            ],
+            "activity_types": [
+                "Supply"
+            ]
+        },
+        {
+            "name": "Gaming/Non-Gaming",
+            "descriptions": [
+                "Gaming vs Non-Gaming"
+            ],
+            "activity_types": []
+        },
+        {
+            "name": "Publisher Name",
+            "descriptions": [
+                "Publisher Name"
+            ],
+            "activity_types": [
+                "Supply",
+                "Demand"
+            ]
+        },
+        {
+            "name": "Bidder Name",
+            "descriptions": [
+                "Bidder Name"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Brand/Perf",
+            "descriptions": [
+                "Brand vs Perf"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Requested Ad Format",
+            "descriptions": [
+                "Requested Ad Format"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Response Ad Format",
+            "descriptions": [
+                "Response Ad Format"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Format",
+            "descriptions": [
+                "Format"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Ad Served Position",
+            "descriptions": [
+                "Ad Served Position"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Revenue Channel",
+            "descriptions": [
+                "Revenue Channel"
+            ],
+            "activity_types": []
+        },
+        {
+            "name": "OS Version",
+            "descriptions": [
+                "OS Version"
+            ],
+            "activity_types": [
+                "Supply",
+                "Demand"
+            ]
+        },
+        {
+            "name": "Id Vendors Forwarded To Bidder",
+            "descriptions": [
+                "Id Vendors Forwarded To Bidder"
+            ],
+            "activity_types": []
+        },
+        {
+            "name": "Deal Id",
+            "descriptions": [
+                "Deal Id"
+            ],
+            "activity_types": []
+        },
+        {
+            "name": "Is Device Id Forwarded",
+            "descriptions": [
+                "Is Device Id Forwarded"
+            ],
+            "activity_types": []
+        },
+        {
+            "name": "Is Id Vendors Forwarded",
+            "descriptions": [
+                "Is Id Vendors Forwarded"
+            ],
+            "activity_types": []
+        },
+        {
+            "name": "Pub Account Name",
+            "descriptions": [
+                "Pub Account Name"
+            ],
+            "activity_types": []
+        },
+        {
+            "name": "GDPR Consent",
+            "descriptions": [
+                "GPDR Consent",
+                "GDPR CONSENT TYPE"
+            ],
+            "activity_types": []
+        },
+        {
+            "name": "Forwarded Slot Id",
+            "descriptions": [
+                "Forwarded Slot Id"
+            ],
+            "activity_types": []
+        },
+        {
+            "name": "Forwarded Bundle Id",
+            "descriptions": [
+                "Forwarded Bundle Id"
+            ],
+            "activity_types": []
+        },
+        {
+            "name": "Bid Loss Reason",
+            "descriptions": [
+                "Bid Loss Reason"
+            ],
+            "activity_types": []
+        },
+        {
+            "name": "Region",
+            "descriptions": [
+                "Region"
+            ],
+            "activity_types": []
+        },
+        {
+            "name": "Header Bidding",
+            "descriptions": [
+                "Header Bidding"
+            ],
+            "activity_types": []
+        },
+        {
+            "name": "Template Id",
+            "descriptions": [
+                "Template Id"
+            ],
+            "activity_types": []
+        },
+        {
+            "name": "Template Name",
+            "descriptions": [
+                "Template Name"
+            ],
+            "activity_types": []
+        },
+        {
+            "name": "Video Category",
+            "descriptions": [
+                "Video Category"
+            ],
+            "activity_types": []
+        },
+        {
+            "name": "Video Duration",
+            "descriptions": [
+                "Video Duration"
+            ],
+            "activity_types": []
+        },
+        {
+            "name": "Playable",
+            "descriptions": [
+                "Playable"
+            ],
+            "activity_types": []
+        },
+        {
+            "name": "Experience Type",
+            "descriptions": [
+                "Experience Type"
+            ],
+            "activity_types": []
+        }
+    ],
+    "metrics": [
+        {
+            "name": "Total Ad Request",
+            "descriptions": [
+                "Ad Request"
+            ],
+            "activity_types": [
+                "Supply"
+            ]
+        },
+        {
+            "name": "SVADR",
+            "descriptions": [
+                "Scaled Valid AD Request"
+            ],
+            "activity_types": [
+                "Supply"
+            ]
+        },
+        {
+            "name": "VADR",
+            "descriptions": [
+                "Valid Ad Request",
+                "valid ad requests"
+            ],
+            "activity_types": [
+                "Supply"
+            ]
+        },
+        {
+            "name": "Eligible Forwards",
+            "descriptions": [
+                "Eligible Forwards"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "CAS Forwards",
+            "descriptions": [
+                "CAS Forwards"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Total Fills",
+            "descriptions": [
+                "Total Fills"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "CAS Fills",
+            "descriptions": [
+                "CAS Fills"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "CAS Wins",
+            "descriptions": [
+                "CAS Wins (Internal Auction)"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Ad Impressions Served",
+            "descriptions": [
+                "Ad Impressions Served"
+            ],
+            "activity_types": [
+                "Supply",
+                "Demand"
+            ]
+        },
+        {
+            "name": "Valid Wins",
+            "descriptions": [
+                "Valid Wins (Partner Auction)"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Ad Load Called",
+            "descriptions": [
+                "Ad Load Called"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Ad Impressions Loaded",
+            "descriptions": [
+                "Ad Impressions Loaded"
+            ],
+            "activity_types": [
+                "Supply",
+                "Demand"
+            ]
+        },
+        {
+            "name": "Ad Impressions Shown",
+            "descriptions": [
+                "Ad Impressions Shown"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Ad Impressions Rendered",
+            "descriptions": [
+                "Ad Impressions Rendered"
+            ],
+            "activity_types": [
+                "Supply",
+                "Demand"
+            ]
+        },
+        {
+            "name": "MRC Viewable",
+            "descriptions": [
+                "MRC Viewable"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Clicks",
+            "descriptions": [
+                "Clicks"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Landings",
+            "descriptions": [
+                "Landings"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Completed Views",
+            "descriptions": [
+                "Completed Views"
+            ],
+            "activity_types": [
+                "Supply",
+                "Demand"
+            ]
+        },
+        {
+            "name": "Total Burn",
+            "descriptions": [
+                "Total Burn"
+            ],
+            "activity_types": [
+                "Supply",
+                "Demand"
+            ]
+        },
+        {
+            "name": "Media Plays",
+            "descriptions": [
+                "Media Plays"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "First Quartile",
+            "descriptions": [
+                "First Quartile"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Second Quartile",
+            "descriptions": [
+                "Second Quartile"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Third Quartile",
+            "descriptions": [
+                "Third Quartile"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "EVC Triggered",
+            "descriptions": [
+                "EVC Triggered"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Companion Ad Clicks",
+            "descriptions": [
+                "Companion Ad Clicks"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Forwards",
+            "descriptions": [
+                "Forwards"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Custom Clicks",
+            "descriptions": [
+                "Custom Clicks"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Inmobi Margins",
+            "descriptions": [
+                "Inmobi Margins"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Companion Rendered",
+            "descriptions": [
+                "Companion Rendered"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Companions Ad Rendered",
+            "descriptions": [
+                "Companions Ad Rendered"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "CAS Forwards Deal",
+            "descriptions": [
+                "CAS Forwards Deal"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Channel Bid",
+            "descriptions": [
+                "Channel Bid"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "Media Clicks",
+            "descriptions": [
+                "Media Clicks"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        },
+        {
+            "name": "EVC Enabled",
+            "descriptions": [
+                "EVC Enabled"
+            ],
+            "activity_types": [
+                "Demand"
+            ]
+        }
+    ],
+    "formulas": [
+        {
+            "name": "IX Fill Rate",
+            "descriptions": [
+                "Ad Impressions Served/ VADR"
+            ],
+            "metrics": [
+                "Ad Impressions Served",
+                "VADR"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[vadr]) < 1, BLANK(), \nSUM('Exchange daily Demand'[ads_served])/SUM('Exchange daily Demand'[vadr]))",
+            "dax_names": [
+                "IX Fill Rate"
+            ]
+        },
+        {
+            "name": "IX Win Rate",
+            "descriptions": [
+                "Valid Wins/Ad Impressions Served(HB)"
+            ],
+            "metrics": [
+                "Valid Wins",
+                "Ad Impressions Served"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[ads_served]) < 1, BLANK(), \nSUM('Exchange daily Demand'[valid_wins])/SUM('Exchange daily Demand'[ads_served]))",
+            "dax_names": [
+                "IX Win Rate"
+            ]
+        },
+        {
+            "name": "Video Completion Rate(VCR)",
+            "descriptions": [
+                "Completed Views/Media Plays"
+            ],
+            "metrics": [
+                "Completed Views",
+                "Media Plays"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[media_plays]) < 1, BLANK(), \nSUM('Exchange daily Demand'[completed_views])/SUM('Exchange daily Demand'[media_plays]))",
+            "dax_names": [
+                "Video Completion Rate(VCR)"
+            ]
+        },
+        {
+            "name": "CTR",
+            "descriptions": [
+                "(Clicks + Custom clicks)/Ad Impression Rendered"
+            ],
+            "metrics": [
+                "Clicks",
+                "Custom Clicks",
+                "Ad Impressions Rendered"
+            ],
+            "dax_expression": "(SUM('CSM Data'[clicks]) + SUM('CSM Data'[custom_clicks]))/SUM('CSM Data'[ads_rendered])",
+            "dax_names": [
+                "CTR"
+            ]
+        },
+        {
+            "name": "eCPM",
+            "descriptions": [
+                "Total Burn/Ad Impression Rendered*1000",
+                "eCPM",
+                "eCPM pub",
+                "eCPM OS",
+                "eCPM SDK"
+            ],
+            "metrics": [
+                "Total Burn",
+                "Ad Impressions Rendered"
+            ],
+            "dax_expression": "1000*(IF(SUM('Exchange daily Demand'[ads_rendered]) < 1, BLANK(), SUM('Exchange daily Demand'[total_burn])/SUM('Exchange daily Demand'[ads_rendered])))",
+            "dax_names": [
+                "eCPM"
+            ]
+        },
+        {
+            "name": "IX Render Rate",
+            "descriptions": [
+                "Ad Impressions Rendered/ IX Wins (If Header Bidding then Valid Wins, if MCO Ads Served)"
+            ],
+            "metrics": [
+                "Ad Impressions Rendered",
+                "Valid Wins"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[IX_Wins]) < 1, BLANK(), \nsum('Exchange daily Demand'[ads_rendered])/SUM('Exchange daily Demand'[IX_Wins]))",
+            "dax_names": [
+                "IX Render Rate"
+            ]
+        },
+        {
+            "name": "CAS Win Rate",
+            "descriptions": [
+                "CAS Wins/CAS Fills",
+                "Cas Win rate",
+                "Cas Win rate pub",
+                "Cas Win rate SDK",
+                "Cas Win rate BL"
+            ],
+            "metrics": [
+                "CAS Wins",
+                "CAS Fills"
+            ],
+            "dax_expression": "IF([cas fills para] < 1, BLANK(),\n[cas win para]/[cas fills para])",
+            "dax_names": [
+                "Cas Win rate"
+            ]
+        },
+        {
+            "name": "CAS Fill Rate",
+            "descriptions": [
+                "CAS Fills/CAS Forwards"
+            ],
+            "metrics": [
+                "CAS Fills",
+                "CAS Forwards"
+            ],
+            "dax_expression": "SUM('CSM Data'[cas_fills])/SUM('CSM Data'[cas_forwards])",
+            "dax_names": [
+                "Cas Fill Rate"
+            ]
+        },
+        {
+            "name": "CAS Render Rate",
+            "descriptions": [
+                "Ad Impressions Rendered/ Ad Impressions Served",
+                "CAS Render Rate",
+                "cas Render Rate_temp",
+                "Rendered/Served Pub",
+                "Rendered/Served OS",
+                "Rendered/Served SDK"
+            ],
+            "metrics": [
+                "Ad Impressions Rendered",
+                "Ad Impressions Served"
+            ],
+            "dax_expression": "IF(sum('Exchange daily Demand'[ad_served]) < 1, BLANK(), \nsum('Exchange daily Demand'[ads_rendered])/sum('Exchange daily Demand'[ad_served]))",
+            "dax_names": [
+                "cas Render Rate",
+                "cas Render Rate_temp",
+                "Rendered/Served Pub",
+                "Rendered/Served OS",
+                "Rendered/Served SDK"
+            ]
+        },
+        {
+            "name": "Inmobi Margin Rate",
+            "descriptions": [
+                "Inmobi Margins/Total Burn"
+            ],
+            "metrics": [
+                "Inmobi Margins",
+                "Total Burn"
+            ],
+            "dax_expression": "SUM('Exchange daily Demand'[inmobi_margins])/SUM('Exchange daily Demand'[total_burn])",
+            "dax_names": [
+                "Inmobi Margin Rate"
+            ]
+        },
+        {
+            "name": "1st Quartile %",
+            "descriptions": [
+                "First Quartile/Media Plays"
+            ],
+            "metrics": [
+                "First Quartile",
+                "Media Plays"
+            ]
+        },
+        {
+            "name": "2nd Quartile %",
+            "descriptions": [
+                "Second Quartile/Media Plays",
+                "2nd Quartile Percentage",
+                "2nd Quartile %",
+                "2nd_Quartile%",
+                "2stQuartile%_temp"
+            ],
+            "metrics": [
+                "Second Quartile",
+                "Media Plays"
+            ]
+        },
+        {
+            "name": "3rd Quartile %",
+            "descriptions": [
+                "Third Quartile/Media Plays",
+                "3rd Quartile Percentage",
+                "3rd Quartile %"
+            ],
+            "metrics": [
+                "Third Quartile",
+                "Media Plays"
+            ]
+        },
+        {
+            "name": "EC CTR",
+            "descriptions": [
+                "Companion Ad Clicks/Ads Rendered",
+                "EC CTR",
+                "EC Click Through Rate"
+            ],
+            "metrics": [
+                "Companion Ad Clicks",
+                "Ad Impressions Rendered"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[ads_rendered]) < 1, BLANK(), \nSUM('Exchange daily Demand'[companion_ad_clicks])/SUM('Exchange daily Demand'[ads_rendered]))",
+            "dax_names": [
+                "EC CTR"
+            ]
+        },
+        {
+            "name": "End Card Render Rate",
+            "descriptions": [
+                "Companion Ads Rendered/Ads Rendered",
+                "End Card Render Rate"
+            ],
+            "metrics": [
+                "Companions Ad Rendered",
+                "Ad Impressions Rendered"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[ads_rendered])<1, BLANK(),\nSUM('Exchange daily Demand'[companions_ad_rendered])/SUM('Exchange daily Demand'[ads_rendered]))",
+            "dax_names": [
+                "End Card Render Rate"
+            ]
+        },
+        {
+            "name": "EV CTR",
+            "descriptions": [
+                "EVC Triggered/Ads Rendered"
+            ],
+            "metrics": [
+                "EVC Triggered",
+                "Ad Impressions Rendered"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[ads_rendered]) < 1, BLANK(), \nSUM('Exchange daily Demand'[evc_triggered])/SUM('Exchange daily Demand'[ads_rendered]))",
+            "dax_names": [
+                "EV CTR"
+            ]
+        },
+        {
+            "name": "Load Errors",
+            "descriptions": [
+                "1 - (Ads Impressions Loaded/Ads Called)"
+            ],
+            "metrics": [
+                "Ad Impressions Loaded",
+                "Ad Load Called"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[ad_load_called]) <1, BLANK(), \n1- (SUM('Exchange daily Demand'[ad_impressions_loaded])/SUM('Exchange daily Demand'[ad_load_called])))",
+            "dax_names": [
+                "Load Errors"
+            ]
+        },
+        {
+            "name": "Media Click Rate",
+            "descriptions": [
+                "Media Clicks/Ads Rendered",
+                "Media CTR",
+                "Media Click Through Rate"
+            ],
+            "metrics": [
+                "Media Clicks",
+                "Ad Impressions Rendered"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[ads_rendered]) < 1, BLANK(),\nSUM('Exchange daily Demand'[media_clicks])/SUM('Exchange daily Demand'[ads_rendered]))",
+            "dax_names": [
+                "Media Click Rate"
+            ]
+        },
+        {
+            "name": "rCPM",
+            "descriptions": [
+                "(Burn/VADR)*1000"
+            ],
+            "metrics": [
+                "Total Burn",
+                "VADR"
+            ],
+            "dax_expression": "IF([vadr Para] < 1, BLANK(), \n1000*(sum('Exchange daily Demand'[total_burn])/[vadr Para]))",
+            "dax_names": [
+                "rCPM"
+            ]
+        },
+        {
+            "name": "Viewability",
+            "descriptions": [
+                "MRC Viewable/Ads Rendered",
+                "Viewability",
+                "MRC Viewable/Rendered Pub",
+                "MRC Viewable/Rendered OS",
+                "MRC Viewable/Rendered SDK"
+            ],
+            "metrics": [
+                "MRC Viewable",
+                "Ad Impressions Rendered"
+            ]
+        },
+        {
+            "name": "ATC Pass Through",
+            "descriptions": [
+                "VADR/SVADR"
+            ],
+            "metrics": [
+                "VADR",
+                "SVADR"
+            ],
+            "dax_expression": "DIVIDE([vadr Para],[SVADR Para])",
+            "dax_names": [
+                "ATC Pass Through"
+            ]
+        },
+        {
+            "name": "End Card Click Rate",
+            "descriptions": [
+                "Companion Ad Clicks/Ads Rendered"
+            ],
+            "metrics": [
+                "Companion Ad Clicks",
+                "Ad Impressions Rendered"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[ads_rendered])<1, BLANK(),\nSUM('Exchange daily Demand'[companion_ad_clicks])/ SUM('Exchange daily Demand'[ads_rendered]))",
+            "dax_names": [
+                "End Card Click Rate"
+            ]
+        },
+        {
+            "name": "EV Clicks/EV Enabled",
+            "descriptions": [
+                "EVC Triggered/EVC Enabled",
+                "EV Clicks/EV Enabled",
+                "EV Clicks/EV Enabled Pub",
+                "EV Clicks/EV Enabled OS",
+                "EV Clicks/EV Enabled SDK"
+            ],
+            "metrics": [
+                "EVC Triggered",
+                "EVC Enabled"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[evc_enabled])<1, BLANK(),\nSUM('Exchange daily Demand'[evc_triggered])/SUM('Exchange daily Demand'[evc_enabled]))",
+            "dax_names": [
+                "EV Clicks/EV Enabled"
+            ]
+        },
+        {
+            "name": "Show Rate",
+            "descriptions": [
+                "Ad Impressions Shown/Ad Impressions Loaded",
+                "Show Rate",
+                "Show Rate OS",
+                "Show Rate Pub",
+                "Show Rate SDK"
+            ],
+            "metrics": [
+                "Ad Impressions Shown",
+                "Ad Impressions Loaded"
+            ],
+            "dax_expression": "if([Ad Impressions Loaded IX]<1 , BLANK(),\nDIVIDE([Ad Impressions Shown IX], [Ad Impressions Loaded IX]))",
+            "dax_names": [
+                "Show Rate",
+                "Show Rate OS",
+                "Show Rate Pub",
+                "Show Rate SDK"
+            ]
+        },
+        {
+            "name": "Rendered/Shown",
+            "descriptions": [
+                "Ad Impressions Rendered/Ad Impressions Shown"
+            ],
+            "metrics": [
+                "Ad Impressions Rendered",
+                "Ad Impressions Shown"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[ad_impressions_shown]) < 1, BLANK(), \nSUM('Exchange daily Demand'[ads_rendered])/SUM('Exchange daily Demand'[ad_impressions_shown]))",
+            "dax_names": [
+                "Rendered/Shown"
+            ]
+        },
+        {
+            "name": "True CTR",
+            "descriptions": [
+                "Landings/Ads Rendered",
+                "True CTR",
+                "True CTR OS",
+                "True CTR Pub",
+                "True CTR SDK"
+            ],
+            "metrics": [
+                "Landings",
+                "Ad Impressions Rendered"
+            ]
+        },
+        {
+            "name": "Sum of Total Burn",
+            "descriptions": [
+                "Sum of Total Burn"
+            ],
+            "metrics": [
+                "Total Burn"
+            ],
+            "dax_expression": "SUM('Exchange daily Demand'[total_burn])",
+            "dax_names": [
+                "Sum of Total Burn"
+            ]
+        },
+        {
+            "name": "Total Ad Rendered",
+            "descriptions": [
+                "sum([ads_rendered])",
+                "total ads rendered",
+                "total ads rendered parameter",
+                "total ads rendered ad domains",
+                "total ads rendered publisher",
+                "total ads rendered deals",
+                "total ads rendered sdk",
+                "total ads rendered os",
+                "total ads rendered temp"
+            ],
+            "metrics": [
+                "Ad Impressions Rendered"
+            ],
+            "dax_names": [
+                "ad_rendered_para",
+                "Ads Rendered Adomains",
+                "Ads Rendered SDK",
+                "Ads Rendered OS",
+                "Ads Rendered Temp",
+                "Ads Rendered Pub",
+                "Ads rendered Deals"
+            ]
+        },
+        {
+            "name": "Total Ad Served",
+            "descriptions": [
+                "sum([ad_served])",
+                "Ad Served Parameter",
+                "Ad Served Adomains",
+                "Ad Served SDK",
+                "Ad Served OS",
+                "Ad Served Temp",
+                "Ad Served Pub",
+                "Ad served Deals"
+            ],
+            "metrics": [
+                "Ad Impressions Served"
+            ],
+            "dax_names": [
+                "ad served para",
+                "Ad Served Parameter",
+                "Ads Served Adomains",
+                "Ads Served SDK",
+                "Ads Served OS",
+                "Ads Served Temp",
+                "Ads Served",
+                "Ads Served Pub",
+                "Ad served Deals"
+            ]
+        },
+        {
+            "name": "Inmobi Margins Total",
+            "descriptions": [
+                "sum([inmobi_margins])",
+                "Inmobi Margins Parameter",
+                "Inmobi Margins Adomains",
+                "Inmobi Margins SDK",
+                "Inmobi Margins OS",
+                "Inmobi Margins Temp",
+                "Inmobi Margins Pub",
+                "Inmobi Margins Deals"
+            ],
+            "metrics": [
+                "Inmobi Margins"
+            ],
+            "dax_names": [
+                "inmobi_margins para",
+                "Inmobi_margins_adomains",
+                "inmobi_margins OS",
+                "inmobi_margins Temp",
+                "Inmobi Margins Pub"
+            ]
+        },
+        {
+            "name": "Total Valid Wins",
+            "descriptions": [
+                "sum([valid_wins])",
+                "Valid Wins Parameter",
+                "Valid Wins Adomains",
+                "Valid Wins SDK",
+                "Valid Wins OS",
+                "Valid Wins Temp",
+                "Valid Wins Pub",
+                "Valid Wins Deals"
+            ],
+            "metrics": [
+                "Valid Wins"
+            ],
+            "dax_names": [
+                "valid wins para",
+                "Valid Wins Adomains",
+                "Valid Wins SDK",
+                "Valid Wins OS",
+                "Valid Wins Temp",
+                "Valid Wins Pub",
+                "Valid Wins Deals"
+            ]
+        },
+        {
+            "name": "Total Clicks",
+            "descriptions": [
+                "sum([clicks])",
+                "Clicks Parameter",
+                "Clicks Adomains",
+                "Clicks SDK",
+                "Clicks OS",
+                "Clicks Temp",
+                "Clicks Pub",
+                "Clicks Deals"
+            ],
+            "metrics": [
+                "Clicks"
+            ],
+            "dax_names": [
+                "clicks para",
+                "Clicks Adomains",
+                "Clicks SDK",
+                "Clicks OS",
+                "Clicks Temp",
+                "Clicks Pub",
+                "Clicks Deals"
+            ]
+        },
+        {
+            "name": "Total Media Plays",
+            "descriptions": [
+                "sum([media_plays])",
+                "Media Plays Parameter",
+                "Media Plays Adomains",
+                "Media Plays SDK",
+                "Media Plays OS",
+                "Media Plays Template",
+                "Media Plays Publisher"
+            ],
+            "metrics": [
+                "Media Plays"
+            ],
+            "dax_names": [
+                "media plays para",
+                "Media_plays_adomains",
+                "Media Plays SDK",
+                "Media Plays OS",
+                "Media Plays Temp",
+                "Media Plays Pub",
+                "Media plays Deals"
+            ]
+        },
+        {
+            "name": "Total Completed Video",
+            "descriptions": [
+                "sum(completed_views)",
+                "Completed Views Parameter",
+                "Completed Views Adomains",
+                "Completed Views SDK",
+                "Completed Views OS",
+                "Completed Views Temp",
+                "Completed Views Pub",
+                "Completed views Deals"
+            ],
+            "metrics": [
+                "Completed Views"
+            ],
+            "dax_names": [
+                "completed video para",
+                "Completed Views Adomains",
+                "Completed Views",
+                "Completed Views OS",
+                "Completed Views Temp",
+                "Completed Views Pub",
+                "Completed views Deals"
+            ]
+        },
+        {
+            "name": "Total Ad Impressions Loaded",
+            "descriptions": [
+                "sum(ad_impressions_loaded)",
+                "Ad Impressions Loaded Parameter",
+                "Ad Impressions Loaded Adomains",
+                "Ad Impressions Loaded SDK",
+                "Ad Impressions Loaded OS",
+                "Ad Impressions Loaded Temp",
+                "Ad Impressions Loaded Pub",
+                "Ad Impressions Loaded Deals"
+            ],
+            "metrics": [
+                "Ad Impressions Loaded"
+            ],
+            "dax_names": [
+                "Ad Impressions Loaded IX",
+                "asd loaded para",
+                "Ad impressions loaded SDK",
+                "Ad Impressions Loaded OS",
+                "Ad Impressions Loaded Temp",
+                "Ad impressions loaded Pub",
+                "Ad Impressions Loaded Deals"
+            ]
+        },
+        {
+            "name": "Total First Quartile",
+            "descriptions": [
+                "sum(first_quartile)",
+                "First Quartile Parameter",
+                "First Quartile Adomains",
+                "First Quartile SDK",
+                "First Quartile OS",
+                "First Quartile Temp",
+                "First Quartile Pub",
+                "First quartile Deals"
+            ],
+            "metrics": [
+                "First Quartile"
+            ],
+            "dax_names": [
+                "First Quartile para",
+                "First_Quartile_adomains",
+                "First Quartile SDK",
+                "FirstQuartileOS",
+                "First Quartile Temp",
+                "First Quartile Pub",
+                "First quartile Deals"
+            ]
+        },
+        {
+            "name": "Total Second Quartile",
+            "descriptions": [
+                "sum(second_quartile)",
+                "Second Quartile Parameter",
+                "Second Quartile Adomains",
+                "Second Quartile SDK",
+                "Second Quartile OS",
+                "Second Quartile Temp",
+                "Second Quartile Pub",
+                "Second quartile Deals"
+            ],
+            "metrics": [
+                "Second Quartile"
+            ],
+            "dax_names": [
+                "Second Quartile para",
+                "Second_Quartile_adomains",
+                "Second Quartile SDK",
+                "SecondQuartileOS",
+                "Second Quartile Temp",
+                "Second Quartile Pub",
+                "Second quartile Deals"
+            ]
+        },
+        {
+            "name": "Total Third Quartile",
+            "descriptions": [
+                "sum(third_quartile)",
+                "Third Quartile Parameter",
+                "Third Quartile Adomains",
+                "Third Quartile SDK",
+                "Third Quartile OS",
+                "Third Quartile Temp",
+                "Third Quartile Pub",
+                "Third quartile Deals"
+            ],
+            "metrics": [
+                "Third Quartile"
+            ],
+            "dax_names": [
+                "Third Quartile para",
+                "Third_Quartile_Adomains",
+                "Third Quartile SDk",
+                "ThirdQuartileOS",
+                "Third Quartile Temp",
+                "Third Quartile Pub",
+                "Third quartile Deals"
+            ]
+        },
+        {
+            "name": "Total Custom Clicks",
+            "descriptions": [
+                "sum(custom_clicks)",
+                "Custom Clicks Parameter",
+                "Custom Clicks Adomains",
+                "Custom Clicks SDK",
+                "Custom Clicks OS",
+                "Custom Clicks Temp",
+                "Custom Clicks Pub"
+            ],
+            "metrics": [
+                "Custom Clicks"
+            ],
+            "dax_names": [
+                "Custom Clicks para",
+                "Custom Click Para",
+                "Custom Clicks",
+                "Custom_Clicks_Adomains",
+                "CustomeClicks SDK",
+                "Custom Clicks OS",
+                "Custom Clicks temp",
+                "Custom Clicks Pub"
+            ]
+        },
+        {
+            "name": "Total Ad Called IX",
+            "descriptions": [
+                "sum(ad_load_called)",
+                "Ad Load Called Parameter",
+                "Ad Load Called Adomains",
+                "Ad Load Called SDK",
+                "Ad Load Called OS",
+                "Ad Load Called Temp",
+                "Ad Load Called Pub"
+            ],
+            "metrics": [
+                "Ad Load Called"
+            ],
+            "dax_names": [
+                "Ad Called IX",
+                "Ad load called SDK",
+                "Ad Load Called OS",
+                "Ad Called Temp",
+                "ad_load_called Pub",
+                "Ad load called Deals"
+            ]
+        },
+        {
+            "name": "Total Ad Impressions Shown IX",
+            "descriptions": [
+                "sum(ad_impressions_shown)",
+                "Ad Impressions Shown Parameter",
+                "Ad Impressions Shown Adomains",
+                "Ad Impressions Shown SDK",
+                "Ad Impressions Shown OS",
+                "Ad Impressions Shown Temp",
+                "Ad Impressions Shown Pub"
+            ],
+            "metrics": [
+                "Ad Impressions Shown"
+            ],
+            "dax_names": [
+                "Ad Impressions Shown IX",
+                "Ads Impressions Shown SDK",
+                "Ad Impressions Shown OS",
+                "Ad Impressions Shown Temp",
+                "ad impressions shown Pub",
+                "Ad Impressions Shown  Deals"
+            ]
+        },
+        {
+            "name": "Total MRC Viewable",
+            "descriptions": [
+                "sum(mrc_viewable)",
+                "MRC Viewable Parameter",
+                "MRC Viewable Adomains",
+                "MRC Viewable SDK",
+                "MRC Viewable OS",
+                "MRC Viewable Temp",
+                "MRC Viewable Pub",
+                "Mrc viewable deals"
+            ],
+            "metrics": [
+                "MRC Viewable"
+            ],
+            "dax_names": [
+                "MRC Viewable",
+                "MRC Viewable SDK",
+                "mrc viewable OS",
+                "MRC Viewable Temp",
+                "MRC Viewable Pub",
+                "Mrc viewable deals"
+            ]
+        },
+        {
+            "name": "Total Media Clicks IX",
+            "descriptions": [
+                "SUM(media_clicks)",
+                "Media Clicks Parameter",
+                "Media Clicks Adomains",
+                "Media Clicks SDK",
+                "Media Clicks OS",
+                "Media Clicks Temp",
+                "Media Clicks Pub"
+            ],
+            "metrics": [
+                "Media Clicks"
+            ],
+            "dax_names": [
+                "Media Clicks IX",
+                "Media Clicks SDK",
+                "Media Clicks OS",
+                "Media Clicks Temp",
+                "Media Clicks Pub",
+                "Media clicks Deals"
+            ]
+        },
+        {
+            "name": "Total EVC Clicks",
+            "descriptions": [
+                "SUM(evc_triggered)",
+                "EVC Triggered Parameter",
+                "EVC Triggered Adomains",
+                "EVC Triggered SDK",
+                "EVC Triggered OS",
+                "EVC Triggered Temp",
+                "EVC Triggered Pub"
+            ],
+            "metrics": [
+                "EVC Triggered"
+            ],
+            "dax_names": [
+                "EVC Clicks",
+                "EVC Clicks SDK",
+                "EVC Clicks OS",
+                "EVC Clicks Temp",
+                "EVC Clicks Pub",
+                "Evc triggered Deals"
+            ]
+        },
+        {
+            "name": "Total Landings IX",
+            "descriptions": [
+                "SUM(landings)",
+                "Landings Parameter",
+                "Landings Adomains",
+                "Landings SDK",
+                "Landings OS",
+                "Landings Temp",
+                "Landings Pub"
+            ],
+            "metrics": [
+                "Landings"
+            ],
+            "dax_names": [
+                "Landings IX",
+                "Landings SDK",
+                "Landings OS",
+                "Landings Temp",
+                "Landings Pub",
+                "Landings Deals"
+            ]
+        },
+        {
+            "name": "Total Companion Ads Rendered IX",
+            "descriptions": [
+                "SUM(companions_ad_rendered)",
+                "Total Companions Ad Rendered IX",
+                "End Card Ads Rendered SDK",
+                "End Card Ads rendered OS",
+                "End Card Ads rendered Temp",
+                "End Card Ads rendered Pub"
+            ],
+            "metrics": [
+                "Companions Ad Rendered"
+            ],
+            "dax_names": [
+                "End Card Ads Rendered IX",
+                "End Card Ads rendered SDK",
+                "End Card Ads rendered OS",
+                "End Card Ads rendered Temp",
+                "End Card Ads rendered Pub",
+                "Companions ad rendered Deals"
+            ]
+        },
+        {
+            "name": "Total EVC Enabled IX",
+            "descriptions": [
+                "SUM(evc_enabled)",
+                "EVC Enabled Parameter",
+                "EVC Enabled Adomains",
+                "EVC Enabled SDK",
+                "EVC Enabled OS",
+                "EVC Enabled Temp",
+                "EVC Enabled Pub"
+            ],
+            "metrics": [
+                "EVC Enabled"
+            ],
+            "dax_names": [
+                "EVC Enabled IX",
+                "EVC Enabled SDK",
+                "EVC Enabled OS",
+                "EVC Enabled Temp",
+                "EVC Enabled Pub"
+            ]
+        },
+        {
+            "name": "Total Companion Ad Clicks IX",
+            "descriptions": [
+                "SUM(companion_ad_clicks)",
+                "End Card Ad Clicks Adomains",
+                "End Card Ad Clicks SDK",
+                "End Card Ad Clicks OS",
+                "End Card Ad Clicks Pub",
+                "Companion ad clicks Deals"
+            ],
+            "metrics": [
+                "Companion Ad Clicks"
+            ],
+            "dax_names": [
+                "End Card Ad Clicks IX",
+                "End Card Ad Clicks SDK",
+                "End Card Ad Clicks OS",
+                "End Card Ad Clicks Pub",
+                "End Card Ad Clicks",
+                "Companion ad clicks Deals"
+            ]
+        },
+        {
+            "name": "Total Ad Impressions Rendered IX",
+            "descriptions": [
+                "SUM('Ad_rendered)"
+            ],
+            "metrics": [
+                "Ad Impressions Rendered"
+            ],
+            "dax_names": [
+                "Ads Rendered"
+            ]
+        },
+        {
+            "name": "Total Cas Fills",
+            "descriptions": [
+                "SUM(cas_fills)",
+                "Total Cas Fills",
+                "Total Cas Fills Adomains",
+                "Total Cas Fills SDK",
+                "Total Cas Fills OS",
+                "Total Cas Fills Pub"
+            ],
+            "metrics": [
+                "CAS Fills"
+            ],
+            "dax_names": [
+                "Cas Fills Adomains",
+                "Cas Fills SDK",
+                "Cas Fills OS",
+                "Cas Fills Pub",
+                "Cas fills BL",
+                "Cas fills Deals"
+            ]
+        },
+        {
+            "name": "Total Cas Wins",
+            "descriptions": [
+                "SUM('cas_wins)"
+            ],
+            "metrics": [
+                "CAS Wins"
+            ],
+            "dax_names": [
+                "Cas Wins Adomains",
+                "Cas Wins SDK",
+                "Cas Wins OS",
+                "Cas Wins Pub",
+                "Cas wins BL",
+                "Cas wins Deals"
+            ]
+        },
+        {
+            "name": "Total Fills",
+            "descriptions": [
+                "SUM(total_fills)",
+                "Total Fills Adomains",
+                "Total Fills SDK",
+                "Total Fills OS",
+                "Total Fills Pub",
+                "Total Fills BL",
+                "Total Fills Deals"
+            ],
+            "metrics": [
+                "Total Fills"
+            ],
+            "dax_names": [
+                "Total Fills Adomains",
+                "Total Fills SDK",
+                "Total Fills OS",
+                "Total Fills Pub",
+                "Total Fills BL",
+                "Total Fills Deals"
+            ]
+        },
+        {
+            "name": "Total Channel Bids",
+            "descriptions": [
+                "SUM(channel_bid)",
+                "Channel Bid Adomains",
+                "Channel Bid SDK",
+                "Channel Bid OS",
+                "Channel Bid Pub",
+                "Channel Bid BL"
+            ],
+            "metrics": [
+                "Channel Bid"
+            ],
+            "dax_names": [
+                "Channel Bids SDK",
+                "Channel Bid OS",
+                "Channel Bids Pub",
+                "Channel Bid BL",
+                "Channel Bid Deals"
+            ]
+        },
+        {
+            "name": "Total Cas forwards",
+            "descriptions": [
+                "SUM(cas_forwards)",
+                "Cas Forwards Deals"
+            ],
+            "metrics": [
+                "CAS Forwards"
+            ],
+            "dax_names": [
+                "Cas forwards Deals"
+            ]
+        },
+        {
+            "name": "Total Eligible forwards",
+            "descriptions": [
+                "SUM(eligible_forwards)"
+            ],
+            "metrics": [
+                "Eligible Forwards"
+            ],
+            "dax_names": [
+                "Eligible forwards Deals"
+            ]
+        },
+        {
+            "name": "Total Cas Forwards Deal",
+            "descriptions": [
+                "SUM(cas_forwards_deal)"
+            ],
+            "metrics": [
+                "CAS Forwards Deal"
+            ],
+            "dax_names": [
+                "Deal Forwards"
+            ]
+        },
+        {
+            "name": "Viewable/Shown",
+            "descriptions": [
+                "Viewable/Shown",
+                "mrc_viewable / ad impressions shown"
+            ],
+            "metrics": [
+                "MRC Viewable",
+                "Ad Impressions Shown"
+            ],
+            "dax_expression": "if(sum('SDK Version Demand'[ad_impressions_shown])<1, BLANK(),\nsum('SDK Version Demand'[mrc_viewable])/sum('SDK Version Demand'[ad_impressions_shown]))",
+            "dax_names": [
+                "Viewable/Shown",
+                "mrc_viewable / ad impressions shown"
+            ]
+        },
+        {
+            "name": "EV CTR",
+            "descriptions": [
+                "EVC Triggered/Ads Rendered"
+            ],
+            "metrics": [
+                "EVC Triggered",
+                "Ad Impressions Rendered"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[ads_rendered]) < 1, BLANK(), \nSUM('Exchange daily Demand'[evc_triggered])/SUM('Exchange daily Demand'[ads_rendered]))",
+            "dax_names": [
+                "EV CTR"
+            ]
+        },
+        {
+            "name": "Media Plays/Rendered",
+            "descriptions": [
+                "Media Plays/Rendered"
+            ],
+            "metrics": [
+                "Media Plays",
+                "Ad Impressions Rendered"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[ads_rendered])<1, BLANK(), \nSUM('Exchange daily Demand'[media_plays])/SUM('Exchange daily Demand'[ads_rendered]))",
+            "dax_names": [
+                "Media Plays/Rendered"
+            ]
+        },
+        {
+            "name": "Ads Called/Forwards",
+            "descriptions": [
+                "Ads Called/Forwards",
+                "Ads Called/Forwards Pub",
+                "Ads Called/Forwards OS",
+                "Ads Called/Forwards SDK"
+            ],
+            "metrics": [
+                "Ad Load Called",
+                "CAS Forwards"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[ad_load_called]) < 1, BLANK(),\nSUM('Exchange daily Demand'[cas_forwards])/SUM('Exchange daily Demand'[ad_load_called]))",
+            "dax_names": [
+                "Ads Called/Forwards",
+                "Ads Called/Forwards Pub",
+                "Ads Called/Forwards OS",
+                "Ads Called/Forwards SDK"
+            ]
+        },
+        {
+            "name": "Ads Loaded/Forwards",
+            "descriptions": [
+                "Ads Loaded/Forwards",
+                "Ads Loaded/Forwards Pub",
+                "Ads Loaded/Forwards OS",
+                "Ads Loaded/Forwards SDK"
+            ],
+            "metrics": [
+                "Ad Impressions Loaded",
+                "CAS Forwards"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[ad_impressions_loaded]) < 1, BLANK(),\nSUM('Exchange daily Demand'[cas_forwards])/SUM('Exchange daily Demand'[ad_impressions_loaded]))",
+            "dax_names": [
+                "Ads Loaded/Forwards",
+                "Ads Loaded/Forwards Pub",
+                "Ads Loaded/Forwards OS",
+                "Ads Loaded/Forwards SDK"
+            ]
+        },
+        {
+            "name": "Rendered/Forwards",
+            "descriptions": [
+                "Rendered/Forwards",
+                "Rendered/Forwards Pub",
+                "Rendered/Forwards OS",
+                "Rendered/Forwards SDK"
+            ],
+            "metrics": [
+                "Ad Impressions Rendered",
+                "CAS Forwards"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[ads_rendered]) < 1, BLANK(),\nSUM('Exchange daily Demand'[cas_forwards])/SUM('Exchange daily Demand'[ads_rendered]))",
+            "dax_names": [
+                "Rendered/Forwards",
+                "Rendered/Forwards Pub",
+                "Rendered/Forwards OS",
+                "Rendered/Forwards SDK"
+            ]
+        },
+        {
+            "name": "Shown/Forwards",
+            "descriptions": [
+                "Shown/Forwards",
+                "Shown/Forwards Pub",
+                "Shown/Forwards OS",
+                "Shown/Forwards SDK"
+            ],
+            "metrics": [
+                "Ad Impressions Shown",
+                "CAS Forwards"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[ad_impressions_shown]) < 1, BLANK(),\nSUM('Exchange daily Demand'[cas_forwards])/SUM('Exchange daily Demand'[ad_impressions_shown]))",
+            "dax_names": [
+                "Shown/Forwards",
+                "Shown/Forwards Pub",
+                "Shown/Forwards OS",
+                "Shown/Forwards SDK"
+            ]
+        },
+        {
+            "name": "Viewable/Forwards",
+            "descriptions": [
+                "Viewable/Forwards",
+                "Viewable/Forwards Pub",
+                "Viewable/Forwards OS",
+                "Viewable/Forwards SDK"
+            ],
+            "metrics": [
+                "MRC Viewable",
+                "CAS Forwards"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[ad_impressions_shown]) < 1, BLANK(),\nSUM('Exchange daily Demand'[cas_forwards])/SUM('Exchange daily Demand'[ad_impressions_shown]))",
+            "dax_names": [
+                "Viewable/Forwards",
+                "Viewable/Forwards Pub",
+                "Viewable/Forwards OS",
+                "Viewable/Forwards SDK"
+            ]
+        },
+        {
+            "name": "Ads Loaded/Ads Called",
+            "descriptions": [
+                "Ads Loaded/Ads Called",
+                "Ads Loaded/Ads Called Pub",
+                "Ads Loaded/Ads Called OS",
+                "Ads Loaded/Ads Called SDK"
+            ],
+            "metrics": [
+                "Ad Impressions Loaded",
+                "Ad Load Called"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[ad_load_called]) < 1, BLANK(),\nSUM('Exchange daily Demand'[ad_impressions_loaded])/SUM('Exchange daily Demand'[ad_load_called]))",
+            "dax_names": [
+                "Ads Loaded/Ads Called",
+                "Ads Loaded/Ads Called Pub",
+                "Ads Loaded/Ads Called OS",
+                "Ads Loaded/Ads Called SDK"
+            ]
+        },
+        {
+            "name": "Rendered/Ad Loaded",
+            "descriptions": [
+                "Rendered/Ad Loaded",
+                "Rendered/Ad Loaded Pub",
+                "Rendered/Ad Loaded OS",
+                "Rendered/Ad Loaded SDK"
+            ],
+            "metrics": [
+                "Ad Impressions Rendered",
+                "Ad Impressions Loaded"
+            ],
+            "dax_expression": "IF(SUM('Exchange daily Demand'[ad_impressions_loaded]) < 1, BLANK(), \nSUM('Exchange daily Demand'[ads_rendered])/SUM('Exchange daily Demand'[ad_impressions_loaded]))",
+            "dax_names": [
+                "Rendered/Ad Loaded",
+                "Rendered/Ad Loaded Pub",
+                "Rendered/Ad Loaded OS",
+                "Rendered/Ad Loaded SDK"
+            ]
+        },
+        {
+            "name": "Click Conversions",
+            "descriptions": [
+                "Click Conversions",
+                "Click Conversions Pub",
+                "Click Conversions OS",
+                "Click Conversions SDK"
+            ],
+            "metrics": [
+                "Landings",
+                "Clicks"
+            ],
+            "dax_expression": "if(sum('Exchange daily Demand'[clicks])<1 , blank(),\n sum('Exchange daily Demand'[landings])/sum('Exchange daily Demand'[clicks]))",
+            "dax_names": [
+                "Click Conversions",
+                "Click Conversions Pub",
+                "Click Conversions OS",
+                "Click Conversions SDK"
+            ]
+        },
+        {
+            "name": "EV Enabled/Rendered",
+            "descriptions": [
+                "EV Enabled/Rendered",
+                "EV Enabled/Rendered Pub",
+                "EV Enabled/Rendered OS",
+                "EV Enabled/Rendered SDK"
+            ],
+            "metrics": [
+                "EVC Enabled",
+                "Ad Impressions Rendered"
+            ],
+            "dax_expression": "if(SUM('Exchange daily Demand'[ads_rendered])<1,BLANK(),\nDIVIDE(\n\tSUM('Exchange daily Demand'[evc_enabled]),\n\tSUM('Exchange daily Demand'[ads_rendered])\n))",
+            "dax_names": [
+                "EV Enabled/Rendered",
+                "EV Enabled/Rendered Pub",
+                "EV Enabled/Rendered OS",
+                "EV Enabled/Rendered SDK"
+            ]
+        },
+        {
+            "name": "Valid Wins/Fills",
+            "descriptions": [
+                "Valid Wins/Fills",
+                "Valid Wins/ Fills SDK"
+            ],
+            "metrics": [
+                "Valid Wins",
+                "CAS Fills"
+            ],
+            "dax_expression": "if(SUM('SDK Version Demand'[cas_fills])<1, BLANK(),\nDIVIDE(\n\tSUM('SDK Version Demand'[valid_wins]),\n\tSUM('SDK Version Demand'[cas_fills])\n))",
+            "dax_names": [
+                "Valid Wins/Fills",
+                "Valid Wins/ Fills SDK"
+            ]
+        },
+        {
+            "name": "Rendered/Fills",
+            "descriptions": [
+                "Rendered/Fills"
+            ],
+            "metrics": [
+                "Ad Impressions Rendered",
+                "CAS Fills"
+            ],
+            "dax_expression": "if(sum('SDK Version Demand'[cas_fills])<1, BLANK(),\n(sum('SDK Version Demand'[ads_rendered]))/sum('SDK Version Demand'[cas_fills]))",
+            "dax_names": [
+                "Rendered/Fills"
+            ]
+        },
+        {
+            "name": "Supply_CTR",
+            "descriptions": [
+                "Supply_CTR"
+            ],
+            "metrics": [
+                "Clicks",
+                "Ad Impressions Rendered"
+            ],
+            "dax_expression": "sum('Exchange daily Demand'[clicks])/sum('Exchange daily Demand'[ads_rendered])",
+            "dax_names": [
+                "Supply_CTR"
+            ]
+        }
+    ],
+    "analysis_areas": [
+        {
+            "name": "Overall Self Serve",
+            "facts": [
+                "ix daily demand activity",
+                "ix daily supply activity"
+            ],
+            "descriptions": [
+                "Overall Self Serve"
+            ]
+        },
+        {
+            "name": "Deals Self Serve",
+            "facts": [
+                "forwarded deal daily demand",
+                "forwarded deal supply activity"
+            ],
+            "descriptions": [
+                "Deals Self Serve"
+            ]
+        },
+        {
+            "name": "SDK Self Serve",
+            "facts": [
+                "sdk daily demand activity",
+                "sdk daily supply activity"
+            ],
+            "descriptions": [
+                "SDK Self Serve"
+            ]
+        },
+        {
+            "name": "Publisher Self Serve",
+            "facts": [
+                "publisher overview daily demand activity",
+                "publisher overview daily supply activity"
+            ],
+            "descriptions": [
+                "Publisher Self Serve"
+            ]
+        },
+        {
+            "name": "OS Version Self Serve",
+            "facts": [
+                "os daily demand activity",
+                "os daily supply activity"
+            ],
+            "descriptions": [
+                "OS Version Self Serve"
+            ]
+        },
+        {
+            "name": "Bid Loss Reason",
+            "facts": [
+                "bid loss daily"
+            ],
+            "descriptions": [
+                "Bid Loss Reason"
+            ]
+        },
+        {
+            "name": "Template Self Serve",
+            "facts": [
+                "template daily"
+            ],
+            "descriptions": [
+                "Template Self Serve"
+            ]
+        },
+        {
+            "name": "Full Funnel - Pubs",
+            "facts": [
+                "publisher overview daily demand activity",
+                "publisher overview daily supply activity"
+            ],
+            "descriptions": [
+                "Full Funnel - Pubs"
+            ]
+        },
+        {
+            "name": "Bidder burn daily snapshot",
+            "facts": [
+                "ix daily demand activity",
+                "ix daily supply activity"
+            ],
+            "descriptions": [
+                "Bidder burn daily snapshot"
+            ]
+        },
+        {
+            "name": "CSM View",
+            "facts": [
+                "csm data"
+            ],
+            "descriptions": [
+                "CSM View"
+            ]
+        },
+        {
+            "name": "Publisher Specific Cut",
+            "facts": [],
+            "descriptions": [
+                "Publisher Specific Cut"
+            ]
+        },
+        {
+            "name": "Full Funnel - Overall",
+            "facts": [],
+            "descriptions": [
+                "Full Funnel - Overall"
+            ]
+        }
+    ]
+}
