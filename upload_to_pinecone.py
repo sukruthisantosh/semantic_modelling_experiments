@@ -167,7 +167,7 @@ class PineconeUploader:
         
         for dimension_name, values in data.get('dim_values', {}).items():
             if isinstance(values, list) and values:
-                # Create a vector for the dimension itself
+                # Create a vector for the dimension itself with limited metadata
                 text_content = f"Dimension Values for {dimension_name}: {', '.join(str(v) for v in values[:10])}"  # Limit to first 10 values
                 if len(values) > 10:
                     text_content += f" and {len(values) - 10} more values"
@@ -178,8 +178,8 @@ class PineconeUploader:
                     'type': 'dimension_values',
                     'metadata': {
                         'dimension_name': dimension_name,
-                        'values': values,
-                        'value_count': len(values)
+                        'value_count': len(values),
+                        'sample_values': values[:5]  # Only store first 5 values in metadata
                     }
                 })
                 
@@ -193,12 +193,18 @@ class PineconeUploader:
                             'type': 'dimension_value',
                             'metadata': {
                                 'dimension_name': dimension_name,
-                                'value': str(value),
+                                'value': str(value)[:100],  # Limit value length
                                 'value_index': i
                             }
                         })
         
         return vectors
+    
+    def check_metadata_size(self, metadata: Dict[str, Any]) -> bool:
+        """Check if metadata size is within Pinecone limits."""
+        import json
+        metadata_json = json.dumps(metadata)
+        return len(metadata_json.encode('utf-8')) <= 40000  # Leave some buffer under 40KB limit
     
     def upload_vectors(self, vectors: List[Dict[str, Any]]):
         """Upload vectors to Pinecone index."""
@@ -209,14 +215,23 @@ class PineconeUploader:
             texts = [vector['text'] for vector in vectors]
             embeddings = self.create_embeddings(texts)
             
-            # Prepare vectors for upload
+            # Prepare vectors for upload, filtering out oversized metadata
             pinecone_vectors = []
+            skipped_count = 0
+            
             for i, vector in enumerate(vectors):
-                pinecone_vectors.append({
-                    'id': vector['id'],
-                    'values': embeddings[i],
-                    'metadata': vector['metadata']
-                })
+                if self.check_metadata_size(vector['metadata']):
+                    pinecone_vectors.append({
+                        'id': vector['id'],
+                        'values': embeddings[i],
+                        'metadata': vector['metadata']
+                    })
+                else:
+                    logger.warning(f"Skipping vector {vector['id']} due to oversized metadata")
+                    skipped_count += 1
+            
+            if skipped_count > 0:
+                logger.info(f"Skipped {skipped_count} vectors due to metadata size limits")
             
             # Upload in batches
             batch_size = 100
