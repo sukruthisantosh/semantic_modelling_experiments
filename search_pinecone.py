@@ -91,7 +91,7 @@ def main():
     try:
         searcher = PineconeSearcher()
         
-        print("🔍 Pinecone Semantic Search")
+        print("Pinecone Semantic Search")
         print("=" * 40)
         print("Type your search query and press Enter.")
         print("Type 'quit' to exit.\n")
