@@ -1,0 +1,3929 @@
+{
+  "metrics": [
+    {
+      "target": "Total Ad Request",
+      "target_type": "metric",
+      "target_id": "metric_Total_Ad_Request",
+      "variations": [
+        "kpi total ad request",
+        "TotalAdRequest",
+        "rate total ad request",
+        "number total ad request",
+        "sum of total ad request",
+        "total ad request kpi",
+        "statistic for total ad request",
+        "Ad Request"
+      ],
+      "metadata": {
+        "name": "Total Ad Request",
+        "descriptions": [
+          "Ad Request"
+        ],
+        "activity_types": [
+          "Supply"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "SVADR",
+      "target_type": "metric",
+      "target_id": "metric_SVADR",
+      "variations": [
+        "statistic for svadr",
+        "svadr statistic",
+        "how many svadr",
+        "count for svadr",
+        "svadr count",
+        "svadr percentage",
+        "percentage svadr",
+        "number svadr"
+      ],
+      "metadata": {
+        "name": "SVADR",
+        "descriptions": [
+          "Scaled Valid AD Request"
+        ],
+        "activity_types": [
+          "Supply"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "VADR",
+      "target_type": "metric",
+      "target_id": "metric_VADR",
+      "variations": [
+        "find valid ad request",
+        "count of vadr",
+        "statistic vadr",
+        "find valid ad requests",
+        "count vadr",
+        "show me valid ad requests",
+        "number for vadr",
+        "count for vadr"
+      ],
+      "metadata": {
+        "name": "VADR",
+        "descriptions": [
+          "Valid Ad Request",
+          "valid ad requests"
+        ],
+        "activity_types": [
+          "Supply"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Eligible Forwards",
+      "target_type": "metric",
+      "target_id": "metric_Eligible_Forwards",
+      "variations": [
+        "percentage eligible forwards",
+        "rate eligible forwards",
+        "statistic eligible forwards",
+        "statistic for eligible forwards",
+        "total eligible forwards",
+        "number for eligible forwards",
+        "eligible forwards number",
+        "eligible forwards statistic"
+      ],
+      "metadata": {
+        "name": "Eligible Forwards",
+        "descriptions": [
+          "Eligible Forwards"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "CAS Forwards",
+      "target_type": "metric",
+      "target_id": "metric_CAS_Forwards",
+      "variations": [
+        "cas forwards kpi",
+        "find cas forwards",
+        "kpi cas forwards",
+        "CAS_Forwards",
+        "cas forwards",
+        "measure for cas forwards",
+        "kpi for cas forwards",
+        "count cas forwards"
+      ],
+      "metadata": {
+        "name": "CAS Forwards",
+        "descriptions": [
+          "CAS Forwards"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Total Fills",
+      "target_type": "metric",
+      "target_id": "metric_Total_Fills",
+      "variations": [
+        "total fills",
+        "show me total fills",
+        "count total fills",
+        "Total_Fills",
+        "total fills statistic",
+        "number total fills",
+        "total fills rate",
+        "number for total fills"
+      ],
+      "metadata": {
+        "name": "Total Fills",
+        "descriptions": [
+          "Total Fills"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "CAS Fills",
+      "target_type": "metric",
+      "target_id": "metric_CAS_Fills",
+      "variations": [
+        "percentage cas fills",
+        "rate cas fills",
+        "show me cas fills",
+        "cas fills measure",
+        "what is the cas fills",
+        "CAS_Fills",
+        "cas fills number",
+        "sum of cas fills"
+      ],
+      "metadata": {
+        "name": "CAS Fills",
+        "descriptions": [
+          "CAS Fills"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "CAS Wins",
+      "target_type": "metric",
+      "target_id": "metric_CAS_Wins",
+      "variations": [
+        "measure for cas wins",
+        "count of cas wins",
+        "statistic for cas wins",
+        "what is the cas wins",
+        "cas wins (internal auction)",
+        "CASWins",
+        "cas wins kpi",
+        "rate cas wins"
+      ],
+      "metadata": {
+        "name": "CAS Wins",
+        "descriptions": [
+          "CAS Wins (Internal Auction)"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Ad Impressions Served",
+      "target_type": "metric",
+      "target_id": "metric_Ad_Impressions_Served",
+      "variations": [
+        "ad impressions served measure",
+        "sum of ad impressions served",
+        "how many ad impressions served",
+        "number for ad impressions served",
+        "kpi for ad impressions served",
+        "AdImpressionsServed",
+        "find ad impressions served",
+        "count for ad impressions served"
+      ],
+      "metadata": {
+        "name": "Ad Impressions Served",
+        "descriptions": [
+          "Ad Impressions Served"
+        ],
+        "activity_types": [
+          "Supply",
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Valid Wins",
+      "target_type": "metric",
+      "target_id": "metric_Valid_Wins",
+      "variations": [
+        "statistic for valid wins",
+        "metric for valid wins",
+        "Valid Wins (Partner Auction)",
+        "valid wins",
+        "how many valid wins",
+        "valid wins (partner auction)",
+        "measure valid wins",
+        "valid wins percentage"
+      ],
+      "metadata": {
+        "name": "Valid Wins",
+        "descriptions": [
+          "Valid Wins (Partner Auction)"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Ad Load Called",
+      "target_type": "metric",
+      "target_id": "metric_Ad_Load_Called",
+      "variations": [
+        "ad load called percentage",
+        "statistic ad load called",
+        "metric for ad load called",
+        "rate ad load called",
+        "metric ad load called",
+        "what is the ad load called",
+        "count ad load called",
+        "ad load called"
+      ],
+      "metadata": {
+        "name": "Ad Load Called",
+        "descriptions": [
+          "Ad Load Called"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Ad Impressions Loaded",
+      "target_type": "metric",
+      "target_id": "metric_Ad_Impressions_Loaded",
+      "variations": [
+        "count ad impressions loaded",
+        "ad impressions loaded number",
+        "count for ad impressions loaded",
+        "statistic for ad impressions loaded",
+        "ad impressions loaded measure",
+        "AdImpressionsLoaded",
+        "ad impressions loaded kpi",
+        "show me ad impressions loaded"
+      ],
+      "metadata": {
+        "name": "Ad Impressions Loaded",
+        "descriptions": [
+          "Ad Impressions Loaded"
+        ],
+        "activity_types": [
+          "Supply",
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Ad Impressions Shown",
+      "target_type": "metric",
+      "target_id": "metric_Ad_Impressions_Shown",
+      "variations": [
+        "metric ad impressions shown",
+        "AdImpressionsShown",
+        "measure for ad impressions shown",
+        "ad impressions shown metric",
+        "metric for ad impressions shown",
+        "ad impressions shown percentage",
+        "statistic for ad impressions shown",
+        "sum of ad impressions shown"
+      ],
+      "metadata": {
+        "name": "Ad Impressions Shown",
+        "descriptions": [
+          "Ad Impressions Shown"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Ad Impressions Rendered",
+      "target_type": "metric",
+      "target_id": "metric_Ad_Impressions_Rendered",
+      "variations": [
+        "ad impressions rendered percentage",
+        "Ad Impressions Rendered",
+        "rate for ad impressions rendered",
+        "show me ad impressions rendered",
+        "count of ad impressions rendered",
+        "ad impressions rendered rate",
+        "ad impressions rendered",
+        "statistic ad impressions rendered"
+      ],
+      "metadata": {
+        "name": "Ad Impressions Rendered",
+        "descriptions": [
+          "Ad Impressions Rendered"
+        ],
+        "activity_types": [
+          "Supply",
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "MRC Viewable",
+      "target_type": "metric",
+      "target_id": "metric_MRC_Viewable",
+      "variations": [
+        "mrc viewable rate",
+        "rate for mrc viewable",
+        "count of mrc viewable",
+        "count mrc viewable",
+        "MRCViewable",
+        "mrc viewable number",
+        "number for mrc viewable",
+        "percentage for mrc viewable"
+      ],
+      "metadata": {
+        "name": "MRC Viewable",
+        "descriptions": [
+          "MRC Viewable"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Clicks",
+      "target_type": "metric",
+      "target_id": "metric_Clicks",
+      "variations": [
+        "show me clicks",
+        "count for clicks",
+        "sum of clicks",
+        "number for clicks",
+        "clicks statistic",
+        "statistic clicks",
+        "clicks metric",
+        "rate for clicks"
+      ],
+      "metadata": {
+        "name": "Clicks",
+        "descriptions": [
+          "Clicks"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Landings",
+      "target_type": "metric",
+      "target_id": "metric_Landings",
+      "variations": [
+        "number for landings",
+        "landings rate",
+        "kpi for landings",
+        "landings",
+        "landings number",
+        "what is the landings",
+        "landings percentage",
+        "landings kpi"
+      ],
+      "metadata": {
+        "name": "Landings",
+        "descriptions": [
+          "Landings"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Completed Views",
+      "target_type": "metric",
+      "target_id": "metric_Completed_Views",
+      "variations": [
+        "find completed views",
+        "completed views kpi",
+        "statistic for completed views",
+        "CompletedViews",
+        "Completed Views",
+        "count completed views",
+        "statistic completed views",
+        "sum of completed views"
+      ],
+      "metadata": {
+        "name": "Completed Views",
+        "descriptions": [
+          "Completed Views"
+        ],
+        "activity_types": [
+          "Supply",
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Total Burn",
+      "target_type": "metric",
+      "target_id": "metric_Total_Burn",
+      "variations": [
+        "TotalBurn",
+        "sum of total burn",
+        "count total burn",
+        "statistic total burn",
+        "total burn percentage",
+        "rate for total burn",
+        "rate total burn",
+        "Total Burn"
+      ],
+      "metadata": {
+        "name": "Total Burn",
+        "descriptions": [
+          "Total Burn"
+        ],
+        "activity_types": [
+          "Supply",
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Media Plays",
+      "target_type": "metric",
+      "target_id": "metric_Media_Plays",
+      "variations": [
+        "count of media plays",
+        "metric for media plays",
+        "Media Plays",
+        "media plays rate",
+        "what is the media plays",
+        "MediaPlays",
+        "count for media plays",
+        "media plays"
+      ],
+      "metadata": {
+        "name": "Media Plays",
+        "descriptions": [
+          "Media Plays"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "First Quartile",
+      "target_type": "metric",
+      "target_id": "metric_First_Quartile",
+      "variations": [
+        "First Quartile",
+        "sum of first quartile",
+        "rate for first quartile",
+        "percentage first quartile",
+        "count first quartile",
+        "first quartile measure",
+        "statistic for first quartile",
+        "first quartile number"
+      ],
+      "metadata": {
+        "name": "First Quartile",
+        "descriptions": [
+          "First Quartile"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Second Quartile",
+      "target_type": "metric",
+      "target_id": "metric_Second_Quartile",
+      "variations": [
+        "rate second quartile",
+        "Second Quartile",
+        "second quartile measure",
+        "what is second quartile",
+        "kpi for second quartile",
+        "number for second quartile",
+        "second quartile metric",
+        "metric for second quartile"
+      ],
+      "metadata": {
+        "name": "Second Quartile",
+        "descriptions": [
+          "Second Quartile"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Third Quartile",
+      "target_type": "metric",
+      "target_id": "metric_Third_Quartile",
+      "variations": [
+        "kpi for third quartile",
+        "measure for third quartile",
+        "find third quartile",
+        "what is third quartile",
+        "number for third quartile",
+        "statistic third quartile",
+        "ThirdQuartile",
+        "third quartile"
+      ],
+      "metadata": {
+        "name": "Third Quartile",
+        "descriptions": [
+          "Third Quartile"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "EVC Triggered",
+      "target_type": "metric",
+      "target_id": "metric_EVC_Triggered",
+      "variations": [
+        "count for evc triggered",
+        "evc triggered number",
+        "percentage evc triggered",
+        "percentage for evc triggered",
+        "measure for evc triggered",
+        "statistic for evc triggered",
+        "metric for evc triggered",
+        "measure evc triggered"
+      ],
+      "metadata": {
+        "name": "EVC Triggered",
+        "descriptions": [
+          "EVC Triggered"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Companion Ad Clicks",
+      "target_type": "metric",
+      "target_id": "metric_Companion_Ad_Clicks",
+      "variations": [
+        "number for companion ad clicks",
+        "companion ad clicks kpi",
+        "how many companion ad clicks",
+        "rate for companion ad clicks",
+        "measure companion ad clicks",
+        "statistic companion ad clicks",
+        "rate companion ad clicks",
+        "companion ad clicks number"
+      ],
+      "metadata": {
+        "name": "Companion Ad Clicks",
+        "descriptions": [
+          "Companion Ad Clicks"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Forwards",
+      "target_type": "metric",
+      "target_id": "metric_Forwards",
+      "variations": [
+        "find forwards",
+        "total forwards",
+        "sum of forwards",
+        "number for forwards",
+        "measure for forwards",
+        "forwards number",
+        "forwards metric",
+        "what is forwards"
+      ],
+      "metadata": {
+        "name": "Forwards",
+        "descriptions": [
+          "Forwards"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Custom Clicks",
+      "target_type": "metric",
+      "target_id": "metric_Custom_Clicks",
+      "variations": [
+        "custom clicks count",
+        "custom clicks percentage",
+        "custom clicks kpi",
+        "Custom Clicks",
+        "measure custom clicks",
+        "metric for custom clicks",
+        "total custom clicks",
+        "custom clicks"
+      ],
+      "metadata": {
+        "name": "Custom Clicks",
+        "descriptions": [
+          "Custom Clicks"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Inmobi Margins",
+      "target_type": "metric",
+      "target_id": "metric_Inmobi_Margins",
+      "variations": [
+        "rate inmobi margins",
+        "count of inmobi margins",
+        "count for inmobi margins",
+        "metric inmobi margins",
+        "inmobi margins kpi",
+        "find inmobi margins",
+        "statistic for inmobi margins",
+        "kpi inmobi margins"
+      ],
+      "metadata": {
+        "name": "Inmobi Margins",
+        "descriptions": [
+          "Inmobi Margins"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Companion Rendered",
+      "target_type": "metric",
+      "target_id": "metric_Companion_Rendered",
+      "variations": [
+        "statistic for companion rendered",
+        "Companion_Rendered",
+        "kpi companion rendered",
+        "number companion rendered",
+        "show me companion rendered",
+        "companion rendered count",
+        "companion rendered",
+        "metric companion rendered"
+      ],
+      "metadata": {
+        "name": "Companion Rendered",
+        "descriptions": [
+          "Companion Rendered"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Companions Ad Rendered",
+      "target_type": "metric",
+      "target_id": "metric_Companions_Ad_Rendered",
+      "variations": [
+        "kpi companions ad rendered",
+        "number for companions ad rendered",
+        "measure for companions ad rendered",
+        "what is companions ad rendered",
+        "Companions Ad Rendered",
+        "percentage for companions ad rendered",
+        "total companions ad rendered",
+        "kpi for companions ad rendered"
+      ],
+      "metadata": {
+        "name": "Companions Ad Rendered",
+        "descriptions": [
+          "Companions Ad Rendered"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "CAS Forwards Deal",
+      "target_type": "metric",
+      "target_id": "metric_CAS_Forwards_Deal",
+      "variations": [
+        "percentage cas forwards deal",
+        "cas forwards deal percentage",
+        "CAS Forwards Deal",
+        "total cas forwards deal",
+        "percentage for cas forwards deal",
+        "statistic for cas forwards deal",
+        "cas forwards deal number",
+        "count cas forwards deal"
+      ],
+      "metadata": {
+        "name": "CAS Forwards Deal",
+        "descriptions": [
+          "CAS Forwards Deal"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Channel Bid",
+      "target_type": "metric",
+      "target_id": "metric_Channel_Bid",
+      "variations": [
+        "percentage channel bid",
+        "channel bid",
+        "what is the channel bid",
+        "channel bid statistic",
+        "measure for channel bid",
+        "metric channel bid",
+        "count of channel bid",
+        "channel bid kpi"
+      ],
+      "metadata": {
+        "name": "Channel Bid",
+        "descriptions": [
+          "Channel Bid"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "Media Clicks",
+      "target_type": "metric",
+      "target_id": "metric_Media_Clicks",
+      "variations": [
+        "measure for media clicks",
+        "Media Clicks",
+        "media clicks rate",
+        "count of media clicks",
+        "kpi media clicks",
+        "rate media clicks",
+        "percentage for media clicks",
+        "measure media clicks"
+      ],
+      "metadata": {
+        "name": "Media Clicks",
+        "descriptions": [
+          "Media Clicks"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    },
+    {
+      "target": "EVC Enabled",
+      "target_type": "metric",
+      "target_id": "metric_EVC_Enabled",
+      "variations": [
+        "what is evc enabled",
+        "number evc enabled",
+        "statistic evc enabled",
+        "EVC_Enabled",
+        "measure evc enabled",
+        "evc enabled percentage",
+        "metric evc enabled",
+        "kpi for evc enabled"
+      ],
+      "metadata": {
+        "name": "EVC Enabled",
+        "descriptions": [
+          "EVC Enabled"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "metric"
+      }
+    }
+  ],
+  "formulas": [
+    {
+      "target": "IX Fill Rate",
+      "target_type": "formula",
+      "target_id": "formula_IX_Fill_Rate",
+      "variations": [
+        "ix fill rate ratio",
+        "percentage for ix fill rate",
+        "calculate ad impressions served/ vadr",
+        "ratio ix fill rate",
+        "ad impressions served/ vadr",
+        "formula for ix fill rate",
+        "formula ix fill rate",
+        "percentage ix fill rate"
+      ],
+      "metadata": {
+        "name": "IX Fill Rate",
+        "descriptions": [
+          "Ad Impressions Served/ VADR"
+        ],
+        "metrics": [
+          "Ad Impressions Served",
+          "VADR"
+        ],
+        "dax_names": [
+          "IX Fill Rate"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "IX Win Rate",
+      "target_type": "formula",
+      "target_id": "formula_IX_Win_Rate",
+      "variations": [
+        "computation ix win rate",
+        "ix win rate computation",
+        "formula for valid wins/ad impressions served(hb)",
+        "ix win rate ratio",
+        "calculation for ix win rate",
+        "Valid Wins/Ad Impressions Served(HB)",
+        "formula ix win rate",
+        "percentage for ix win rate"
+      ],
+      "metadata": {
+        "name": "IX Win Rate",
+        "descriptions": [
+          "Valid Wins/Ad Impressions Served(HB)"
+        ],
+        "metrics": [
+          "Valid Wins",
+          "Ad Impressions Served"
+        ],
+        "dax_names": [
+          "IX Win Rate"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Video Completion Rate(VCR)",
+      "target_type": "formula",
+      "target_id": "formula_Video_Completion_Rate(VCR)",
+      "variations": [
+        "computation video completion rate(vcr)",
+        "video completion rate(vcr) calculation",
+        "ratio for video completion rate(vcr)",
+        "video completion rate(vcr) percentage",
+        "video completion rate(vcr) rate",
+        "formula for video completion rate(vcr)",
+        "ratio video completion rate(vcr)",
+        "Video Completion Rate(VCR)"
+      ],
+      "metadata": {
+        "name": "Video Completion Rate(VCR)",
+        "descriptions": [
+          "Completed Views/Media Plays"
+        ],
+        "metrics": [
+          "Completed Views",
+          "Media Plays"
+        ],
+        "dax_names": [
+          "Video Completion Rate(VCR)"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "CTR",
+      "target_type": "formula",
+      "target_id": "formula_CTR",
+      "variations": [
+        "ctr",
+        "calculation ctr",
+        "calculate (clicks + custom clicks)/ad impression rendered",
+        "calculation for ctr",
+        "computation for ctr",
+        "ctr percentage",
+        "ratio for ctr",
+        "CTR"
+      ],
+      "metadata": {
+        "name": "CTR",
+        "descriptions": [
+          "(Clicks + Custom clicks)/Ad Impression Rendered"
+        ],
+        "metrics": [
+          "Clicks",
+          "Custom Clicks",
+          "Ad Impressions Rendered"
+        ],
+        "dax_names": [
+          "CTR"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "eCPM",
+      "target_type": "formula",
+      "target_id": "formula_eCPM",
+      "variations": [
+        "eCPM pub",
+        "calculation for ecpm",
+        "percentage for ecpm",
+        "eCPM OS",
+        "ecpm computation",
+        "rate ecpm",
+        "computation ecpm",
+        "ecpm sdk"
+      ],
+      "metadata": {
+        "name": "eCPM",
+        "descriptions": [
+          "Total Burn/Ad Impression Rendered*1000",
+          "eCPM",
+          "eCPM pub",
+          "eCPM OS",
+          "eCPM SDK"
+        ],
+        "metrics": [
+          "Total Burn",
+          "Ad Impressions Rendered"
+        ],
+        "dax_names": [
+          "eCPM"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "IX Render Rate",
+      "target_type": "formula",
+      "target_id": "formula_IX_Render_Rate",
+      "variations": [
+        "calculation ix render rate",
+        "ix render rate",
+        "rate ix render rate",
+        "percentage for ix render rate",
+        "formula for ix render rate",
+        "ad impressions rendered/ ix wins (if header bidding then valid wins, if mco ads served)",
+        "ix render rate ratio",
+        "rate for ix render rate"
+      ],
+      "metadata": {
+        "name": "IX Render Rate",
+        "descriptions": [
+          "Ad Impressions Rendered/ IX Wins (If Header Bidding then Valid Wins, if MCO Ads Served)"
+        ],
+        "metrics": [
+          "Ad Impressions Rendered",
+          "Valid Wins"
+        ],
+        "dax_names": [
+          "IX Render Rate"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "CAS Win Rate",
+      "target_type": "formula",
+      "target_id": "formula_CAS_Win_Rate",
+      "variations": [
+        "how to calculate cas win rate bl",
+        "calculate cas win rate sdk",
+        "formula for cas win rate pub",
+        "formula cas win rate",
+        "cas win rate pub",
+        "cas win rate bl",
+        "calculate cas win rate",
+        "how to calculate cas wins/cas fills"
+      ],
+      "metadata": {
+        "name": "CAS Win Rate",
+        "descriptions": [
+          "CAS Wins/CAS Fills",
+          "Cas Win rate",
+          "Cas Win rate pub",
+          "Cas Win rate SDK",
+          "Cas Win rate BL"
+        ],
+        "metrics": [
+          "CAS Wins",
+          "CAS Fills"
+        ],
+        "dax_names": [
+          "Cas Win rate"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "CAS Fill Rate",
+      "target_type": "formula",
+      "target_id": "formula_CAS_Fill_Rate",
+      "variations": [
+        "computation cas fill rate",
+        "percentage for cas fill rate",
+        "calculation cas fill rate",
+        "formula for cas fill rate",
+        "cas fill rate calculation",
+        "CAS Fill Rate",
+        "percentage cas fill rate",
+        "cas fill rate formula"
+      ],
+      "metadata": {
+        "name": "CAS Fill Rate",
+        "descriptions": [
+          "CAS Fills/CAS Forwards"
+        ],
+        "metrics": [
+          "CAS Fills",
+          "CAS Forwards"
+        ],
+        "dax_names": [
+          "Cas Fill Rate"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "CAS Render Rate",
+      "target_type": "formula",
+      "target_id": "formula_CAS_Render_Rate",
+      "variations": [
+        "rendered/served sdk",
+        "CAS_Render_Rate",
+        "calculation for cas render rate",
+        "how to calculate ad impressions rendered/ ad impressions served",
+        "formula for rendered/served sdk",
+        "Ad Impressions Rendered/ Ad Impressions Served",
+        "cas render rate computation",
+        "CAS Render Rate"
+      ],
+      "metadata": {
+        "name": "CAS Render Rate",
+        "descriptions": [
+          "Ad Impressions Rendered/ Ad Impressions Served",
+          "CAS Render Rate",
+          "cas Render Rate_temp",
+          "Rendered/Served Pub",
+          "Rendered/Served OS",
+          "Rendered/Served SDK"
+        ],
+        "metrics": [
+          "Ad Impressions Rendered",
+          "Ad Impressions Served"
+        ],
+        "dax_names": [
+          "cas Render Rate",
+          "cas Render Rate_temp",
+          "Rendered/Served Pub",
+          "Rendered/Served OS",
+          "Rendered/Served SDK"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Inmobi Margin Rate",
+      "target_type": "formula",
+      "target_id": "formula_Inmobi_Margin_Rate",
+      "variations": [
+        "formula for inmobi margins/total burn",
+        "computation inmobi margin rate",
+        "ratio for inmobi margin rate",
+        "formula inmobi margin rate",
+        "calculation inmobi margin rate",
+        "InmobiMarginRate",
+        "formula for inmobi margin rate",
+        "inmobi margin rate ratio"
+      ],
+      "metadata": {
+        "name": "Inmobi Margin Rate",
+        "descriptions": [
+          "Inmobi Margins/Total Burn"
+        ],
+        "metrics": [
+          "Inmobi Margins",
+          "Total Burn"
+        ],
+        "dax_names": [
+          "Inmobi Margin Rate"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "1st Quartile %",
+      "target_type": "formula",
+      "target_id": "formula_1st_Quartile_%",
+      "variations": [
+        "how to calculate first quartile/media plays",
+        "calculation for 1st quartile %",
+        "First Quartile/Media Plays",
+        "computation for 1st quartile %",
+        "percentage for 1st quartile %",
+        "1stQuartile%",
+        "computation 1st quartile %",
+        "percentage 1st quartile %"
+      ],
+      "metadata": {
+        "name": "1st Quartile %",
+        "descriptions": [
+          "First Quartile/Media Plays"
+        ],
+        "metrics": [
+          "First Quartile",
+          "Media Plays"
+        ],
+        "dax_names": [],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "2nd Quartile %",
+      "target_type": "formula",
+      "target_id": "formula_2nd_Quartile_%",
+      "variations": [
+        "percentage for 2nd quartile %",
+        "how to calculate 2stquartile%_temp",
+        "2nd quartile %",
+        "2nd quartile % calculation",
+        "percentage 2nd quartile %",
+        "calculate 2stquartile%_temp",
+        "formula for second quartile/media plays",
+        "computation 2nd quartile %"
+      ],
+      "metadata": {
+        "name": "2nd Quartile %",
+        "descriptions": [
+          "Second Quartile/Media Plays",
+          "2nd Quartile Percentage",
+          "2nd Quartile %",
+          "2nd_Quartile%",
+          "2stQuartile%_temp"
+        ],
+        "metrics": [
+          "Second Quartile",
+          "Media Plays"
+        ],
+        "dax_names": [],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "3rd Quartile %",
+      "target_type": "formula",
+      "target_id": "formula_3rd_Quartile_%",
+      "variations": [
+        "3rd quartile % ratio",
+        "3rdQuartile%",
+        "how to calculate 3rd quartile %",
+        "rate 3rd quartile %",
+        "formula for third quartile/media plays",
+        "formula 3rd quartile %",
+        "3rd quartile percentage",
+        "rate for 3rd quartile %"
+      ],
+      "metadata": {
+        "name": "3rd Quartile %",
+        "descriptions": [
+          "Third Quartile/Media Plays",
+          "3rd Quartile Percentage",
+          "3rd Quartile %"
+        ],
+        "metrics": [
+          "Third Quartile",
+          "Media Plays"
+        ],
+        "dax_names": [],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "EC CTR",
+      "target_type": "formula",
+      "target_id": "formula_EC_CTR",
+      "variations": [
+        "rate ec ctr",
+        "ec ctr ratio",
+        "calculate companion ad clicks/ads rendered",
+        "Companion Ad Clicks/Ads Rendered",
+        "EC Click Through Rate",
+        "ECCTR",
+        "calculation ec ctr",
+        "EC CTR"
+      ],
+      "metadata": {
+        "name": "EC CTR",
+        "descriptions": [
+          "Companion Ad Clicks/Ads Rendered",
+          "EC CTR",
+          "EC Click Through Rate"
+        ],
+        "metrics": [
+          "Companion Ad Clicks",
+          "Ad Impressions Rendered"
+        ],
+        "dax_names": [
+          "EC CTR"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "End Card Render Rate",
+      "target_type": "formula",
+      "target_id": "formula_End_Card_Render_Rate",
+      "variations": [
+        "formula for companion ads rendered/ads rendered",
+        "end card render rate calculation",
+        "end card render rate formula",
+        "rate end card render rate",
+        "End Card Render Rate",
+        "percentage end card render rate",
+        "percentage for end card render rate",
+        "companion ads rendered/ads rendered"
+      ],
+      "metadata": {
+        "name": "End Card Render Rate",
+        "descriptions": [
+          "Companion Ads Rendered/Ads Rendered",
+          "End Card Render Rate"
+        ],
+        "metrics": [
+          "Companions Ad Rendered",
+          "Ad Impressions Rendered"
+        ],
+        "dax_names": [
+          "End Card Render Rate"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "EV CTR",
+      "target_type": "formula",
+      "target_id": "formula_EV_CTR",
+      "variations": [
+        "calculation for ev ctr",
+        "computation ev ctr",
+        "formula ev ctr",
+        "percentage ev ctr",
+        "EVCTR",
+        "percentage for ev ctr",
+        "calculate evc triggered/ads rendered",
+        "EVC Triggered/Ads Rendered"
+      ],
+      "metadata": {
+        "name": "EV CTR",
+        "descriptions": [
+          "EVC Triggered/Ads Rendered"
+        ],
+        "metrics": [
+          "EVC Triggered",
+          "Ad Impressions Rendered"
+        ],
+        "dax_names": [
+          "EV CTR"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Load Errors",
+      "target_type": "formula",
+      "target_id": "formula_Load_Errors",
+      "variations": [
+        "calculation load errors",
+        "rate for load errors",
+        "load errors rate",
+        "1 - (Ads Impressions Loaded/Ads Called)",
+        "calculate 1 - (ads impressions loaded/ads called)",
+        "calculation for load errors",
+        "load errors ratio",
+        "formula for 1 - (ads impressions loaded/ads called)"
+      ],
+      "metadata": {
+        "name": "Load Errors",
+        "descriptions": [
+          "1 - (Ads Impressions Loaded/Ads Called)"
+        ],
+        "metrics": [
+          "Ad Impressions Loaded",
+          "Ad Load Called"
+        ],
+        "dax_names": [
+          "Load Errors"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Media Click Rate",
+      "target_type": "formula",
+      "target_id": "formula_Media_Click_Rate",
+      "variations": [
+        "calculation media click rate",
+        "media click rate computation",
+        "media click rate calculation",
+        "Media Click Through Rate",
+        "formula for media ctr",
+        "Media_Click_Rate",
+        "calculate media click through rate",
+        "how to calculate media clicks/ads rendered"
+      ],
+      "metadata": {
+        "name": "Media Click Rate",
+        "descriptions": [
+          "Media Clicks/Ads Rendered",
+          "Media CTR",
+          "Media Click Through Rate"
+        ],
+        "metrics": [
+          "Media Clicks",
+          "Ad Impressions Rendered"
+        ],
+        "dax_names": [
+          "Media Click Rate"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "rCPM",
+      "target_type": "formula",
+      "target_id": "formula_rCPM",
+      "variations": [
+        "(burn/vadr)*1000",
+        "percentage rcpm",
+        "rcpm percentage",
+        "rate for rcpm",
+        "rcpm formula",
+        "rcpm ratio",
+        "rcpm computation",
+        "rCPM"
+      ],
+      "metadata": {
+        "name": "rCPM",
+        "descriptions": [
+          "(Burn/VADR)*1000"
+        ],
+        "metrics": [
+          "Total Burn",
+          "VADR"
+        ],
+        "dax_names": [
+          "rCPM"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Viewability",
+      "target_type": "formula",
+      "target_id": "formula_Viewability",
+      "variations": [
+        "viewability formula",
+        "MRC Viewable/Rendered SDK",
+        "mrc viewable/rendered sdk",
+        "calculation for viewability",
+        "how to calculate viewability",
+        "MRC Viewable/Ads Rendered",
+        "rate viewability",
+        "calculation viewability"
+      ],
+      "metadata": {
+        "name": "Viewability",
+        "descriptions": [
+          "MRC Viewable/Ads Rendered",
+          "Viewability",
+          "MRC Viewable/Rendered Pub",
+          "MRC Viewable/Rendered OS",
+          "MRC Viewable/Rendered SDK"
+        ],
+        "metrics": [
+          "MRC Viewable",
+          "Ad Impressions Rendered"
+        ],
+        "dax_names": [],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "ATC Pass Through",
+      "target_type": "formula",
+      "target_id": "formula_ATC_Pass_Through",
+      "variations": [
+        "computation atc pass through",
+        "formula for vadr/svadr",
+        "ATCPassThrough",
+        "ratio atc pass through",
+        "ATC_Pass_Through",
+        "rate atc pass through",
+        "formula for atc pass through",
+        "percentage atc pass through"
+      ],
+      "metadata": {
+        "name": "ATC Pass Through",
+        "descriptions": [
+          "VADR/SVADR"
+        ],
+        "metrics": [
+          "VADR",
+          "SVADR"
+        ],
+        "dax_names": [
+          "ATC Pass Through"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "End Card Click Rate",
+      "target_type": "formula",
+      "target_id": "formula_End_Card_Click_Rate",
+      "variations": [
+        "rate for end card click rate",
+        "end card click rate computation",
+        "EndCardClickRate",
+        "ratio end card click rate",
+        "formula for end card click rate",
+        "formula for companion ad clicks/ads rendered",
+        "calculation for end card click rate",
+        "ratio for end card click rate"
+      ],
+      "metadata": {
+        "name": "End Card Click Rate",
+        "descriptions": [
+          "Companion Ad Clicks/Ads Rendered"
+        ],
+        "metrics": [
+          "Companion Ad Clicks",
+          "Ad Impressions Rendered"
+        ],
+        "dax_names": [
+          "End Card Click Rate"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "EV Clicks/EV Enabled",
+      "target_type": "formula",
+      "target_id": "formula_EV_Clicks/EV_Enabled",
+      "variations": [
+        "EV Clicks/EV Enabled",
+        "EV Clicks/EV Enabled Pub",
+        "formula for ev clicks/ev enabled os",
+        "calculate ev clicks/ev enabled pub",
+        "formula for evc triggered/evc enabled",
+        "ev clicks/ev enabled ratio",
+        "ev clicks/ev enabled computation",
+        "EV Clicks/EV Enabled SDK"
+      ],
+      "metadata": {
+        "name": "EV Clicks/EV Enabled",
+        "descriptions": [
+          "EVC Triggered/EVC Enabled",
+          "EV Clicks/EV Enabled",
+          "EV Clicks/EV Enabled Pub",
+          "EV Clicks/EV Enabled OS",
+          "EV Clicks/EV Enabled SDK"
+        ],
+        "metrics": [
+          "EVC Triggered",
+          "EVC Enabled"
+        ],
+        "dax_names": [
+          "EV Clicks/EV Enabled"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Show Rate",
+      "target_type": "formula",
+      "target_id": "formula_Show_Rate",
+      "variations": [
+        "calculate show rate os",
+        "show rate calculation",
+        "show rate formula",
+        "calculate show rate sdk",
+        "show rate",
+        "show rate sdk",
+        "formula for show rate sdk",
+        "show rate pub"
+      ],
+      "metadata": {
+        "name": "Show Rate",
+        "descriptions": [
+          "Ad Impressions Shown/Ad Impressions Loaded",
+          "Show Rate",
+          "Show Rate OS",
+          "Show Rate Pub",
+          "Show Rate SDK"
+        ],
+        "metrics": [
+          "Ad Impressions Shown",
+          "Ad Impressions Loaded"
+        ],
+        "dax_names": [
+          "Show Rate",
+          "Show Rate OS",
+          "Show Rate Pub",
+          "Show Rate SDK"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Rendered/Shown",
+      "target_type": "formula",
+      "target_id": "formula_Rendered/Shown",
+      "variations": [
+        "calculate ad impressions rendered/ad impressions shown",
+        "formula for rendered/shown",
+        "formula for ad impressions rendered/ad impressions shown",
+        "rendered/shown rate",
+        "rate rendered/shown",
+        "how to calculate ad impressions rendered/ad impressions shown",
+        "ad impressions rendered/ad impressions shown",
+        "percentage rendered/shown"
+      ],
+      "metadata": {
+        "name": "Rendered/Shown",
+        "descriptions": [
+          "Ad Impressions Rendered/Ad Impressions Shown"
+        ],
+        "metrics": [
+          "Ad Impressions Rendered",
+          "Ad Impressions Shown"
+        ],
+        "dax_names": [
+          "Rendered/Shown"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "True CTR",
+      "target_type": "formula",
+      "target_id": "formula_True_CTR",
+      "variations": [
+        "True_CTR",
+        "calculate true ctr sdk",
+        "true ctr sdk",
+        "computation true ctr",
+        "how to calculate true ctr sdk",
+        "percentage true ctr",
+        "ratio true ctr",
+        "how to calculate true ctr pub"
+      ],
+      "metadata": {
+        "name": "True CTR",
+        "descriptions": [
+          "Landings/Ads Rendered",
+          "True CTR",
+          "True CTR OS",
+          "True CTR Pub",
+          "True CTR SDK"
+        ],
+        "metrics": [
+          "Landings",
+          "Ad Impressions Rendered"
+        ],
+        "dax_names": [],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Sum of Total Burn",
+      "target_type": "formula",
+      "target_id": "formula_Sum_of_Total_Burn",
+      "variations": [
+        "sum of total burn",
+        "sum of total burn computation",
+        "sum of total burn formula",
+        "SumofTotalBurn",
+        "formula sum of total burn",
+        "calculation sum of total burn",
+        "percentage sum of total burn",
+        "Sum_of_Total_Burn"
+      ],
+      "metadata": {
+        "name": "Sum of Total Burn",
+        "descriptions": [
+          "Sum of Total Burn"
+        ],
+        "metrics": [
+          "Total Burn"
+        ],
+        "dax_names": [
+          "Sum of Total Burn"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Ad Rendered",
+      "target_type": "formula",
+      "target_id": "formula_Total_Ad_Rendered",
+      "variations": [
+        "computation for total ad rendered",
+        "total ad rendered",
+        "total ads rendered publisher",
+        "how to calculate total ads rendered sdk",
+        "formula for total ads rendered publisher",
+        "formula for total ads rendered temp",
+        "formula for total ads rendered",
+        "formula total ad rendered"
+      ],
+      "metadata": {
+        "name": "Total Ad Rendered",
+        "descriptions": [
+          "sum([ads_rendered])",
+          "total ads rendered",
+          "total ads rendered parameter",
+          "total ads rendered ad domains",
+          "total ads rendered publisher",
+          "total ads rendered deals",
+          "total ads rendered sdk",
+          "total ads rendered os",
+          "total ads rendered temp"
+        ],
+        "metrics": [
+          "Ad Impressions Rendered"
+        ],
+        "dax_names": [
+          "ad_rendered_para",
+          "Ads Rendered Adomains",
+          "Ads Rendered SDK",
+          "Ads Rendered OS",
+          "Ads Rendered Temp",
+          "Ads Rendered Pub",
+          "Ads rendered Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Ad Served",
+      "target_type": "formula",
+      "target_id": "formula_Total_Ad_Served",
+      "variations": [
+        "ratio total ad served",
+        "formula for ad served deals",
+        "TotalAdServed",
+        "calculation for total ad served",
+        "ad served sdk",
+        "Ad Served OS",
+        "formula for ad served parameter",
+        "Ad served Deals"
+      ],
+      "metadata": {
+        "name": "Total Ad Served",
+        "descriptions": [
+          "sum([ad_served])",
+          "Ad Served Parameter",
+          "Ad Served Adomains",
+          "Ad Served SDK",
+          "Ad Served OS",
+          "Ad Served Temp",
+          "Ad Served Pub",
+          "Ad served Deals"
+        ],
+        "metrics": [
+          "Ad Impressions Served"
+        ],
+        "dax_names": [
+          "ad served para",
+          "Ad Served Parameter",
+          "Ads Served Adomains",
+          "Ads Served SDK",
+          "Ads Served OS",
+          "Ads Served Temp",
+          "Ads Served",
+          "Ads Served Pub",
+          "Ad served Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Inmobi Margins Total",
+      "target_type": "formula",
+      "target_id": "formula_Inmobi_Margins_Total",
+      "variations": [
+        "formula for inmobi margins pub",
+        "how to calculate inmobi margins temp",
+        "inmobi margins total calculation",
+        "inmobi margins total formula",
+        "calculate inmobi margins temp",
+        "calculate inmobi margins deals",
+        "inmobi margins deals",
+        "Inmobi Margins Total"
+      ],
+      "metadata": {
+        "name": "Inmobi Margins Total",
+        "descriptions": [
+          "sum([inmobi_margins])",
+          "Inmobi Margins Parameter",
+          "Inmobi Margins Adomains",
+          "Inmobi Margins SDK",
+          "Inmobi Margins OS",
+          "Inmobi Margins Temp",
+          "Inmobi Margins Pub",
+          "Inmobi Margins Deals"
+        ],
+        "metrics": [
+          "Inmobi Margins"
+        ],
+        "dax_names": [
+          "inmobi_margins para",
+          "Inmobi_margins_adomains",
+          "inmobi_margins OS",
+          "inmobi_margins Temp",
+          "Inmobi Margins Pub"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Valid Wins",
+      "target_type": "formula",
+      "target_id": "formula_Total_Valid_Wins",
+      "variations": [
+        "formula for valid wins sdk",
+        "formula for valid wins os",
+        "total valid wins formula",
+        "calculate valid wins deals",
+        "valid wins adomains",
+        "formula for total valid wins",
+        "valid wins deals",
+        "ratio for total valid wins"
+      ],
+      "metadata": {
+        "name": "Total Valid Wins",
+        "descriptions": [
+          "sum([valid_wins])",
+          "Valid Wins Parameter",
+          "Valid Wins Adomains",
+          "Valid Wins SDK",
+          "Valid Wins OS",
+          "Valid Wins Temp",
+          "Valid Wins Pub",
+          "Valid Wins Deals"
+        ],
+        "metrics": [
+          "Valid Wins"
+        ],
+        "dax_names": [
+          "valid wins para",
+          "Valid Wins Adomains",
+          "Valid Wins SDK",
+          "Valid Wins OS",
+          "Valid Wins Temp",
+          "Valid Wins Pub",
+          "Valid Wins Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Clicks",
+      "target_type": "formula",
+      "target_id": "formula_Total_Clicks",
+      "variations": [
+        "clicks os",
+        "clicks deals",
+        "clicks adomains",
+        "formula for sum([clicks])",
+        "formula for clicks sdk",
+        "formula for clicks parameter",
+        "how to calculate clicks sdk",
+        "total clicks calculation"
+      ],
+      "metadata": {
+        "name": "Total Clicks",
+        "descriptions": [
+          "sum([clicks])",
+          "Clicks Parameter",
+          "Clicks Adomains",
+          "Clicks SDK",
+          "Clicks OS",
+          "Clicks Temp",
+          "Clicks Pub",
+          "Clicks Deals"
+        ],
+        "metrics": [
+          "Clicks"
+        ],
+        "dax_names": [
+          "clicks para",
+          "Clicks Adomains",
+          "Clicks SDK",
+          "Clicks OS",
+          "Clicks Temp",
+          "Clicks Pub",
+          "Clicks Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Media Plays",
+      "target_type": "formula",
+      "target_id": "formula_Total_Media_Plays",
+      "variations": [
+        "formula for media plays adomains",
+        "total media plays percentage",
+        "TotalMediaPlays",
+        "how to calculate media plays publisher",
+        "total media plays",
+        "total media plays ratio",
+        "calculate sum([media_plays])",
+        "computation for total media plays"
+      ],
+      "metadata": {
+        "name": "Total Media Plays",
+        "descriptions": [
+          "sum([media_plays])",
+          "Media Plays Parameter",
+          "Media Plays Adomains",
+          "Media Plays SDK",
+          "Media Plays OS",
+          "Media Plays Template",
+          "Media Plays Publisher"
+        ],
+        "metrics": [
+          "Media Plays"
+        ],
+        "dax_names": [
+          "media plays para",
+          "Media_plays_adomains",
+          "Media Plays SDK",
+          "Media Plays OS",
+          "Media Plays Temp",
+          "Media Plays Pub",
+          "Media plays Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Completed Video",
+      "target_type": "formula",
+      "target_id": "formula_Total_Completed_Video",
+      "variations": [
+        "Completed Views Temp",
+        "formula for completed views os",
+        "formula for completed views parameter",
+        "Total Completed Video",
+        "rate total completed video",
+        "TotalCompletedVideo",
+        "rate for total completed video",
+        "formula for sum(completed_views)"
+      ],
+      "metadata": {
+        "name": "Total Completed Video",
+        "descriptions": [
+          "sum(completed_views)",
+          "Completed Views Parameter",
+          "Completed Views Adomains",
+          "Completed Views SDK",
+          "Completed Views OS",
+          "Completed Views Temp",
+          "Completed Views Pub",
+          "Completed views Deals"
+        ],
+        "metrics": [
+          "Completed Views"
+        ],
+        "dax_names": [
+          "completed video para",
+          "Completed Views Adomains",
+          "Completed Views",
+          "Completed Views OS",
+          "Completed Views Temp",
+          "Completed Views Pub",
+          "Completed views Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Ad Impressions Loaded",
+      "target_type": "formula",
+      "target_id": "formula_Total_Ad_Impressions_Loaded",
+      "variations": [
+        "ad impressions loaded deals",
+        "Ad Impressions Loaded Pub",
+        "how to calculate ad impressions loaded sdk",
+        "total ad impressions loaded computation",
+        "ad impressions loaded temp",
+        "calculate ad impressions loaded pub",
+        "calculate ad impressions loaded os",
+        "Ad Impressions Loaded SDK"
+      ],
+      "metadata": {
+        "name": "Total Ad Impressions Loaded",
+        "descriptions": [
+          "sum(ad_impressions_loaded)",
+          "Ad Impressions Loaded Parameter",
+          "Ad Impressions Loaded Adomains",
+          "Ad Impressions Loaded SDK",
+          "Ad Impressions Loaded OS",
+          "Ad Impressions Loaded Temp",
+          "Ad Impressions Loaded Pub",
+          "Ad Impressions Loaded Deals"
+        ],
+        "metrics": [
+          "Ad Impressions Loaded"
+        ],
+        "dax_names": [
+          "Ad Impressions Loaded IX",
+          "asd loaded para",
+          "Ad impressions loaded SDK",
+          "Ad Impressions Loaded OS",
+          "Ad Impressions Loaded Temp",
+          "Ad impressions loaded Pub",
+          "Ad Impressions Loaded Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total First Quartile",
+      "target_type": "formula",
+      "target_id": "formula_Total_First_Quartile",
+      "variations": [
+        "formula for sum(first_quartile)",
+        "calculation for total first quartile",
+        "first quartile temp",
+        "total first quartile rate",
+        "first quartile sdk",
+        "First Quartile Parameter",
+        "First Quartile Adomains",
+        "calculate first quartile pub"
+      ],
+      "metadata": {
+        "name": "Total First Quartile",
+        "descriptions": [
+          "sum(first_quartile)",
+          "First Quartile Parameter",
+          "First Quartile Adomains",
+          "First Quartile SDK",
+          "First Quartile OS",
+          "First Quartile Temp",
+          "First Quartile Pub",
+          "First quartile Deals"
+        ],
+        "metrics": [
+          "First Quartile"
+        ],
+        "dax_names": [
+          "First Quartile para",
+          "First_Quartile_adomains",
+          "First Quartile SDK",
+          "FirstQuartileOS",
+          "First Quartile Temp",
+          "First Quartile Pub",
+          "First quartile Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Second Quartile",
+      "target_type": "formula",
+      "target_id": "formula_Total_Second_Quartile",
+      "variations": [
+        "Second Quartile SDK",
+        "calculate second quartile adomains",
+        "Second Quartile Parameter",
+        "rate for total second quartile",
+        "second quartile pub",
+        "Second Quartile OS",
+        "Total Second Quartile",
+        "how to calculate sum(second_quartile)"
+      ],
+      "metadata": {
+        "name": "Total Second Quartile",
+        "descriptions": [
+          "sum(second_quartile)",
+          "Second Quartile Parameter",
+          "Second Quartile Adomains",
+          "Second Quartile SDK",
+          "Second Quartile OS",
+          "Second Quartile Temp",
+          "Second Quartile Pub",
+          "Second quartile Deals"
+        ],
+        "metrics": [
+          "Second Quartile"
+        ],
+        "dax_names": [
+          "Second Quartile para",
+          "Second_Quartile_adomains",
+          "Second Quartile SDK",
+          "SecondQuartileOS",
+          "Second Quartile Temp",
+          "Second Quartile Pub",
+          "Second quartile Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Third Quartile",
+      "target_type": "formula",
+      "target_id": "formula_Total_Third_Quartile",
+      "variations": [
+        "Third Quartile SDK",
+        "formula for sum(third_quartile)",
+        "third quartile deals",
+        "formula for third quartile parameter",
+        "calculate third quartile deals",
+        "third quartile os",
+        "third quartile parameter",
+        "Total_Third_Quartile"
+      ],
+      "metadata": {
+        "name": "Total Third Quartile",
+        "descriptions": [
+          "sum(third_quartile)",
+          "Third Quartile Parameter",
+          "Third Quartile Adomains",
+          "Third Quartile SDK",
+          "Third Quartile OS",
+          "Third Quartile Temp",
+          "Third Quartile Pub",
+          "Third quartile Deals"
+        ],
+        "metrics": [
+          "Third Quartile"
+        ],
+        "dax_names": [
+          "Third Quartile para",
+          "Third_Quartile_Adomains",
+          "Third Quartile SDk",
+          "ThirdQuartileOS",
+          "Third Quartile Temp",
+          "Third Quartile Pub",
+          "Third quartile Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Custom Clicks",
+      "target_type": "formula",
+      "target_id": "formula_Total_Custom_Clicks",
+      "variations": [
+        "how to calculate custom clicks parameter",
+        "formula for custom clicks parameter",
+        "total custom clicks rate",
+        "calculation for total custom clicks",
+        "Custom Clicks Temp",
+        "total custom clicks formula",
+        "percentage total custom clicks",
+        "calculate custom clicks adomains"
+      ],
+      "metadata": {
+        "name": "Total Custom Clicks",
+        "descriptions": [
+          "sum(custom_clicks)",
+          "Custom Clicks Parameter",
+          "Custom Clicks Adomains",
+          "Custom Clicks SDK",
+          "Custom Clicks OS",
+          "Custom Clicks Temp",
+          "Custom Clicks Pub"
+        ],
+        "metrics": [
+          "Custom Clicks"
+        ],
+        "dax_names": [
+          "Custom Clicks para",
+          "Custom Click Para",
+          "Custom Clicks",
+          "Custom_Clicks_Adomains",
+          "CustomeClicks SDK",
+          "Custom Clicks OS",
+          "Custom Clicks temp",
+          "Custom Clicks Pub"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Ad Called IX",
+      "target_type": "formula",
+      "target_id": "formula_Total_Ad_Called_IX",
+      "variations": [
+        "ad load called pub",
+        "formula for ad load called pub",
+        "ratio for total ad called ix",
+        "total ad called ix",
+        "ad load called temp",
+        "calculation total ad called ix",
+        "formula for ad load called temp",
+        "ad load called adomains"
+      ],
+      "metadata": {
+        "name": "Total Ad Called IX",
+        "descriptions": [
+          "sum(ad_load_called)",
+          "Ad Load Called Parameter",
+          "Ad Load Called Adomains",
+          "Ad Load Called SDK",
+          "Ad Load Called OS",
+          "Ad Load Called Temp",
+          "Ad Load Called Pub"
+        ],
+        "metrics": [
+          "Ad Load Called"
+        ],
+        "dax_names": [
+          "Ad Called IX",
+          "Ad load called SDK",
+          "Ad Load Called OS",
+          "Ad Called Temp",
+          "ad_load_called Pub",
+          "Ad load called Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Ad Impressions Shown IX",
+      "target_type": "formula",
+      "target_id": "formula_Total_Ad_Impressions_Shown_IX",
+      "variations": [
+        "calculate ad impressions shown sdk",
+        "Ad Impressions Shown Temp",
+        "how to calculate sum(ad_impressions_shown)",
+        "ad impressions shown sdk",
+        "Total Ad Impressions Shown IX",
+        "computation for total ad impressions shown ix",
+        "percentage for total ad impressions shown ix",
+        "ad impressions shown temp"
+      ],
+      "metadata": {
+        "name": "Total Ad Impressions Shown IX",
+        "descriptions": [
+          "sum(ad_impressions_shown)",
+          "Ad Impressions Shown Parameter",
+          "Ad Impressions Shown Adomains",
+          "Ad Impressions Shown SDK",
+          "Ad Impressions Shown OS",
+          "Ad Impressions Shown Temp",
+          "Ad Impressions Shown Pub"
+        ],
+        "metrics": [
+          "Ad Impressions Shown"
+        ],
+        "dax_names": [
+          "Ad Impressions Shown IX",
+          "Ads Impressions Shown SDK",
+          "Ad Impressions Shown OS",
+          "Ad Impressions Shown Temp",
+          "ad impressions shown Pub",
+          "Ad Impressions Shown  Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total MRC Viewable",
+      "target_type": "formula",
+      "target_id": "formula_Total_MRC_Viewable",
+      "variations": [
+        "how to calculate mrc viewable os",
+        "calculate mrc viewable sdk",
+        "calculate mrc viewable os",
+        "computation for total mrc viewable",
+        "formula total mrc viewable",
+        "MRC Viewable Pub",
+        "total mrc viewable rate",
+        "calculate mrc viewable adomains"
+      ],
+      "metadata": {
+        "name": "Total MRC Viewable",
+        "descriptions": [
+          "sum(mrc_viewable)",
+          "MRC Viewable Parameter",
+          "MRC Viewable Adomains",
+          "MRC Viewable SDK",
+          "MRC Viewable OS",
+          "MRC Viewable Temp",
+          "MRC Viewable Pub",
+          "Mrc viewable deals"
+        ],
+        "metrics": [
+          "MRC Viewable"
+        ],
+        "dax_names": [
+          "MRC Viewable",
+          "MRC Viewable SDK",
+          "mrc viewable OS",
+          "MRC Viewable Temp",
+          "MRC Viewable Pub",
+          "Mrc viewable deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Media Clicks IX",
+      "target_type": "formula",
+      "target_id": "formula_Total_Media_Clicks_IX",
+      "variations": [
+        "calculate media clicks pub",
+        "total media clicks ix",
+        "media clicks adomains",
+        "media clicks sdk",
+        "Total_Media_Clicks_IX",
+        "calculation for total media clicks ix",
+        "rate total media clicks ix",
+        "total media clicks ix formula"
+      ],
+      "metadata": {
+        "name": "Total Media Clicks IX",
+        "descriptions": [
+          "SUM(media_clicks)",
+          "Media Clicks Parameter",
+          "Media Clicks Adomains",
+          "Media Clicks SDK",
+          "Media Clicks OS",
+          "Media Clicks Temp",
+          "Media Clicks Pub"
+        ],
+        "metrics": [
+          "Media Clicks"
+        ],
+        "dax_names": [
+          "Media Clicks IX",
+          "Media Clicks SDK",
+          "Media Clicks OS",
+          "Media Clicks Temp",
+          "Media Clicks Pub",
+          "Media clicks Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total EVC Clicks",
+      "target_type": "formula",
+      "target_id": "formula_Total_EVC_Clicks",
+      "variations": [
+        "how to calculate sum(evc_triggered)",
+        "formula for evc triggered pub",
+        "Total_EVC_Clicks",
+        "how to calculate evc triggered os",
+        "sum(evc_triggered)",
+        "ratio for total evc clicks",
+        "formula for evc triggered temp",
+        "EVC Triggered Parameter"
+      ],
+      "metadata": {
+        "name": "Total EVC Clicks",
+        "descriptions": [
+          "SUM(evc_triggered)",
+          "EVC Triggered Parameter",
+          "EVC Triggered Adomains",
+          "EVC Triggered SDK",
+          "EVC Triggered OS",
+          "EVC Triggered Temp",
+          "EVC Triggered Pub"
+        ],
+        "metrics": [
+          "EVC Triggered"
+        ],
+        "dax_names": [
+          "EVC Clicks",
+          "EVC Clicks SDK",
+          "EVC Clicks OS",
+          "EVC Clicks Temp",
+          "EVC Clicks Pub",
+          "Evc triggered Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Landings IX",
+      "target_type": "formula",
+      "target_id": "formula_Total_Landings_IX",
+      "variations": [
+        "landings parameter",
+        "computation total landings ix",
+        "Landings Adomains",
+        "percentage total landings ix",
+        "landings os",
+        "rate for total landings ix",
+        "Landings Temp",
+        "formula for landings temp"
+      ],
+      "metadata": {
+        "name": "Total Landings IX",
+        "descriptions": [
+          "SUM(landings)",
+          "Landings Parameter",
+          "Landings Adomains",
+          "Landings SDK",
+          "Landings OS",
+          "Landings Temp",
+          "Landings Pub"
+        ],
+        "metrics": [
+          "Landings"
+        ],
+        "dax_names": [
+          "Landings IX",
+          "Landings SDK",
+          "Landings OS",
+          "Landings Temp",
+          "Landings Pub",
+          "Landings Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Companion Ads Rendered IX",
+      "target_type": "formula",
+      "target_id": "formula_Total_Companion_Ads_Rendered_IX",
+      "variations": [
+        "formula for end card ads rendered sdk",
+        "how to calculate end card ads rendered sdk",
+        "Total Companion Ads Rendered IX",
+        "how to calculate end card ads rendered os",
+        "calculate end card ads rendered temp",
+        "calculate sum(companions_ad_rendered)",
+        "calculate end card ads rendered os",
+        "ratio total companion ads rendered ix"
+      ],
+      "metadata": {
+        "name": "Total Companion Ads Rendered IX",
+        "descriptions": [
+          "SUM(companions_ad_rendered)",
+          "Total Companions Ad Rendered IX",
+          "End Card Ads Rendered SDK",
+          "End Card Ads rendered OS",
+          "End Card Ads rendered Temp",
+          "End Card Ads rendered Pub"
+        ],
+        "metrics": [
+          "Companions Ad Rendered"
+        ],
+        "dax_names": [
+          "End Card Ads Rendered IX",
+          "End Card Ads rendered SDK",
+          "End Card Ads rendered OS",
+          "End Card Ads rendered Temp",
+          "End Card Ads rendered Pub",
+          "Companions ad rendered Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total EVC Enabled IX",
+      "target_type": "formula",
+      "target_id": "formula_Total_EVC_Enabled_IX",
+      "variations": [
+        "percentage total evc enabled ix",
+        "evc enabled os",
+        "total evc enabled ix calculation",
+        "rate total evc enabled ix",
+        "total evc enabled ix computation",
+        "EVC Enabled OS",
+        "how to calculate evc enabled adomains",
+        "computation for total evc enabled ix"
+      ],
+      "metadata": {
+        "name": "Total EVC Enabled IX",
+        "descriptions": [
+          "SUM(evc_enabled)",
+          "EVC Enabled Parameter",
+          "EVC Enabled Adomains",
+          "EVC Enabled SDK",
+          "EVC Enabled OS",
+          "EVC Enabled Temp",
+          "EVC Enabled Pub"
+        ],
+        "metrics": [
+          "EVC Enabled"
+        ],
+        "dax_names": [
+          "EVC Enabled IX",
+          "EVC Enabled SDK",
+          "EVC Enabled OS",
+          "EVC Enabled Temp",
+          "EVC Enabled Pub"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Companion Ad Clicks IX",
+      "target_type": "formula",
+      "target_id": "formula_Total_Companion_Ad_Clicks_IX",
+      "variations": [
+        "calculate end card ad clicks pub",
+        "formula for total companion ad clicks ix",
+        "formula for end card ad clicks os",
+        "ratio for total companion ad clicks ix",
+        "calculate end card ad clicks sdk",
+        "total companion ad clicks ix rate",
+        "computation for total companion ad clicks ix",
+        "how to calculate end card ad clicks pub"
+      ],
+      "metadata": {
+        "name": "Total Companion Ad Clicks IX",
+        "descriptions": [
+          "SUM(companion_ad_clicks)",
+          "End Card Ad Clicks Adomains",
+          "End Card Ad Clicks SDK",
+          "End Card Ad Clicks OS",
+          "End Card Ad Clicks Pub",
+          "Companion ad clicks Deals"
+        ],
+        "metrics": [
+          "Companion Ad Clicks"
+        ],
+        "dax_names": [
+          "End Card Ad Clicks IX",
+          "End Card Ad Clicks SDK",
+          "End Card Ad Clicks OS",
+          "End Card Ad Clicks Pub",
+          "End Card Ad Clicks",
+          "Companion ad clicks Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Ad Impressions Rendered IX",
+      "target_type": "formula",
+      "target_id": "formula_Total_Ad_Impressions_Rendered_IX",
+      "variations": [
+        "total ad impressions rendered ix calculation",
+        "Total Ad Impressions Rendered IX",
+        "total ad impressions rendered ix percentage",
+        "how to calculate sum('ad_rendered)",
+        "percentage total ad impressions rendered ix",
+        "total ad impressions rendered ix formula",
+        "ratio for total ad impressions rendered ix",
+        "computation for total ad impressions rendered ix"
+      ],
+      "metadata": {
+        "name": "Total Ad Impressions Rendered IX",
+        "descriptions": [
+          "SUM('Ad_rendered)"
+        ],
+        "metrics": [
+          "Ad Impressions Rendered"
+        ],
+        "dax_names": [
+          "Ads Rendered"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Cas Fills",
+      "target_type": "formula",
+      "target_id": "formula_Total_Cas_Fills",
+      "variations": [
+        "percentage total cas fills",
+        "calculate total cas fills sdk",
+        "total cas fills pub",
+        "total cas fills adomains",
+        "calculation total cas fills",
+        "how to calculate total cas fills adomains",
+        "percentage for total cas fills",
+        "calculate total cas fills pub"
+      ],
+      "metadata": {
+        "name": "Total Cas Fills",
+        "descriptions": [
+          "SUM(cas_fills)",
+          "Total Cas Fills",
+          "Total Cas Fills Adomains",
+          "Total Cas Fills SDK",
+          "Total Cas Fills OS",
+          "Total Cas Fills Pub"
+        ],
+        "metrics": [
+          "CAS Fills"
+        ],
+        "dax_names": [
+          "Cas Fills Adomains",
+          "Cas Fills SDK",
+          "Cas Fills OS",
+          "Cas Fills Pub",
+          "Cas fills BL",
+          "Cas fills Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Cas Wins",
+      "target_type": "formula",
+      "target_id": "formula_Total_Cas_Wins",
+      "variations": [
+        "formula for total cas wins",
+        "total cas wins calculation",
+        "total cas wins ratio",
+        "Total Cas Wins",
+        "rate total cas wins",
+        "how to calculate sum('cas_wins)",
+        "total cas wins rate",
+        "calculation for total cas wins"
+      ],
+      "metadata": {
+        "name": "Total Cas Wins",
+        "descriptions": [
+          "SUM('cas_wins)"
+        ],
+        "metrics": [
+          "CAS Wins"
+        ],
+        "dax_names": [
+          "Cas Wins Adomains",
+          "Cas Wins SDK",
+          "Cas Wins OS",
+          "Cas Wins Pub",
+          "Cas wins BL",
+          "Cas wins Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Fills",
+      "target_type": "formula",
+      "target_id": "formula_Total_Fills",
+      "variations": [
+        "formula for total fills sdk",
+        "formula for total fills bl",
+        "total fills",
+        "how to calculate sum(total_fills)",
+        "Total Fills OS",
+        "formula for total fills adomains",
+        "how to calculate total fills sdk",
+        "sum(total_fills)"
+      ],
+      "metadata": {
+        "name": "Total Fills",
+        "descriptions": [
+          "SUM(total_fills)",
+          "Total Fills Adomains",
+          "Total Fills SDK",
+          "Total Fills OS",
+          "Total Fills Pub",
+          "Total Fills BL",
+          "Total Fills Deals"
+        ],
+        "metrics": [
+          "Total Fills"
+        ],
+        "dax_names": [
+          "Total Fills Adomains",
+          "Total Fills SDK",
+          "Total Fills OS",
+          "Total Fills Pub",
+          "Total Fills BL",
+          "Total Fills Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Channel Bids",
+      "target_type": "formula",
+      "target_id": "formula_Total_Channel_Bids",
+      "variations": [
+        "calculate channel bid sdk",
+        "ratio for total channel bids",
+        "how to calculate channel bid bl",
+        "Channel Bid Adomains",
+        "total channel bids calculation",
+        "formula for sum(channel_bid)",
+        "Channel Bid OS",
+        "calculate channel bid pub"
+      ],
+      "metadata": {
+        "name": "Total Channel Bids",
+        "descriptions": [
+          "SUM(channel_bid)",
+          "Channel Bid Adomains",
+          "Channel Bid SDK",
+          "Channel Bid OS",
+          "Channel Bid Pub",
+          "Channel Bid BL"
+        ],
+        "metrics": [
+          "Channel Bid"
+        ],
+        "dax_names": [
+          "Channel Bids SDK",
+          "Channel Bid OS",
+          "Channel Bids Pub",
+          "Channel Bid BL",
+          "Channel Bid Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Cas forwards",
+      "target_type": "formula",
+      "target_id": "formula_Total_Cas_forwards",
+      "variations": [
+        "Total Cas forwards",
+        "computation total cas forwards",
+        "how to calculate sum(cas_forwards)",
+        "rate total cas forwards",
+        "ratio for total cas forwards",
+        "rate for total cas forwards",
+        "SUM(cas_forwards)",
+        "formula for total cas forwards"
+      ],
+      "metadata": {
+        "name": "Total Cas forwards",
+        "descriptions": [
+          "SUM(cas_forwards)",
+          "Cas Forwards Deals"
+        ],
+        "metrics": [
+          "CAS Forwards"
+        ],
+        "dax_names": [
+          "Cas forwards Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Eligible forwards",
+      "target_type": "formula",
+      "target_id": "formula_Total_Eligible_forwards",
+      "variations": [
+        "calculation for total eligible forwards",
+        "total eligible forwards calculation",
+        "total eligible forwards percentage",
+        "Total_Eligible_forwards",
+        "formula for total eligible forwards",
+        "formula total eligible forwards",
+        "percentage for total eligible forwards",
+        "total eligible forwards computation"
+      ],
+      "metadata": {
+        "name": "Total Eligible forwards",
+        "descriptions": [
+          "SUM(eligible_forwards)"
+        ],
+        "metrics": [
+          "Eligible Forwards"
+        ],
+        "dax_names": [
+          "Eligible forwards Deals"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Total Cas Forwards Deal",
+      "target_type": "formula",
+      "target_id": "formula_Total_Cas_Forwards_Deal",
+      "variations": [
+        "ratio total cas forwards deal",
+        "rate for total cas forwards deal",
+        "formula for sum(cas_forwards_deal)",
+        "total cas forwards deal calculation",
+        "formula total cas forwards deal",
+        "computation total cas forwards deal",
+        "TotalCasForwardsDeal",
+        "total cas forwards deal percentage"
+      ],
+      "metadata": {
+        "name": "Total Cas Forwards Deal",
+        "descriptions": [
+          "SUM(cas_forwards_deal)"
+        ],
+        "metrics": [
+          "CAS Forwards Deal"
+        ],
+        "dax_names": [
+          "Deal Forwards"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Viewable/Shown",
+      "target_type": "formula",
+      "target_id": "formula_Viewable/Shown",
+      "variations": [
+        "viewable/shown rate",
+        "calculation viewable/shown",
+        "percentage for viewable/shown",
+        "calculate mrc_viewable / ad impressions shown",
+        "calculate viewable/shown",
+        "viewable/shown calculation",
+        "Viewable/Shown",
+        "percentage viewable/shown"
+      ],
+      "metadata": {
+        "name": "Viewable/Shown",
+        "descriptions": [
+          "Viewable/Shown",
+          "mrc_viewable / ad impressions shown"
+        ],
+        "metrics": [
+          "MRC Viewable",
+          "Ad Impressions Shown"
+        ],
+        "dax_names": [
+          "Viewable/Shown",
+          "mrc_viewable / ad impressions shown"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "EV CTR",
+      "target_type": "formula",
+      "target_id": "formula_EV_CTR",
+      "variations": [
+        "formula for evc triggered/ads rendered",
+        "EVC Triggered/Ads Rendered",
+        "evc triggered/ads rendered",
+        "calculate evc triggered/ads rendered",
+        "EV CTR",
+        "EVCTR",
+        "ratio ev ctr",
+        "computation ev ctr"
+      ],
+      "metadata": {
+        "name": "EV CTR",
+        "descriptions": [
+          "EVC Triggered/Ads Rendered"
+        ],
+        "metrics": [
+          "EVC Triggered",
+          "Ad Impressions Rendered"
+        ],
+        "dax_names": [
+          "EV CTR"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Media Plays/Rendered",
+      "target_type": "formula",
+      "target_id": "formula_Media_Plays/Rendered",
+      "variations": [
+        "media plays/rendered percentage",
+        "media plays/rendered",
+        "ratio media plays/rendered",
+        "formula for media plays/rendered",
+        "how to calculate media plays/rendered",
+        "rate media plays/rendered",
+        "media plays/rendered rate",
+        "computation media plays/rendered"
+      ],
+      "metadata": {
+        "name": "Media Plays/Rendered",
+        "descriptions": [
+          "Media Plays/Rendered"
+        ],
+        "metrics": [
+          "Media Plays",
+          "Ad Impressions Rendered"
+        ],
+        "dax_names": [
+          "Media Plays/Rendered"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Ads Called/Forwards",
+      "target_type": "formula",
+      "target_id": "formula_Ads_Called/Forwards",
+      "variations": [
+        "computation for ads called/forwards",
+        "rate for ads called/forwards",
+        "percentage for ads called/forwards",
+        "ads called/forwards os",
+        "ads called/forwards calculation",
+        "Ads Called/Forwards Pub",
+        "ratio for ads called/forwards",
+        "formula for ads called/forwards sdk"
+      ],
+      "metadata": {
+        "name": "Ads Called/Forwards",
+        "descriptions": [
+          "Ads Called/Forwards",
+          "Ads Called/Forwards Pub",
+          "Ads Called/Forwards OS",
+          "Ads Called/Forwards SDK"
+        ],
+        "metrics": [
+          "Ad Load Called",
+          "CAS Forwards"
+        ],
+        "dax_names": [
+          "Ads Called/Forwards",
+          "Ads Called/Forwards Pub",
+          "Ads Called/Forwards OS",
+          "Ads Called/Forwards SDK"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Ads Loaded/Forwards",
+      "target_type": "formula",
+      "target_id": "formula_Ads_Loaded/Forwards",
+      "variations": [
+        "AdsLoaded/Forwards",
+        "Ads Loaded/Forwards OS",
+        "calculate ads loaded/forwards os",
+        "formula for ads loaded/forwards pub",
+        "formula for ads loaded/forwards sdk",
+        "ads loaded/forwards rate",
+        "ads loaded/forwards pub",
+        "ads loaded/forwards"
+      ],
+      "metadata": {
+        "name": "Ads Loaded/Forwards",
+        "descriptions": [
+          "Ads Loaded/Forwards",
+          "Ads Loaded/Forwards Pub",
+          "Ads Loaded/Forwards OS",
+          "Ads Loaded/Forwards SDK"
+        ],
+        "metrics": [
+          "Ad Impressions Loaded",
+          "CAS Forwards"
+        ],
+        "dax_names": [
+          "Ads Loaded/Forwards",
+          "Ads Loaded/Forwards Pub",
+          "Ads Loaded/Forwards OS",
+          "Ads Loaded/Forwards SDK"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Rendered/Forwards",
+      "target_type": "formula",
+      "target_id": "formula_Rendered/Forwards",
+      "variations": [
+        "computation for rendered/forwards",
+        "rendered/forwards calculation",
+        "formula for rendered/forwards",
+        "Rendered/Forwards OS",
+        "ratio for rendered/forwards",
+        "formula for rendered/forwards pub",
+        "rendered/forwards sdk",
+        "Rendered/Forwards"
+      ],
+      "metadata": {
+        "name": "Rendered/Forwards",
+        "descriptions": [
+          "Rendered/Forwards",
+          "Rendered/Forwards Pub",
+          "Rendered/Forwards OS",
+          "Rendered/Forwards SDK"
+        ],
+        "metrics": [
+          "Ad Impressions Rendered",
+          "CAS Forwards"
+        ],
+        "dax_names": [
+          "Rendered/Forwards",
+          "Rendered/Forwards Pub",
+          "Rendered/Forwards OS",
+          "Rendered/Forwards SDK"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Shown/Forwards",
+      "target_type": "formula",
+      "target_id": "formula_Shown/Forwards",
+      "variations": [
+        "how to calculate shown/forwards os",
+        "shown/forwards pub",
+        "formula for shown/forwards",
+        "rate shown/forwards",
+        "how to calculate shown/forwards sdk",
+        "calculate shown/forwards",
+        "formula for shown/forwards os",
+        "formula for shown/forwards pub"
+      ],
+      "metadata": {
+        "name": "Shown/Forwards",
+        "descriptions": [
+          "Shown/Forwards",
+          "Shown/Forwards Pub",
+          "Shown/Forwards OS",
+          "Shown/Forwards SDK"
+        ],
+        "metrics": [
+          "Ad Impressions Shown",
+          "CAS Forwards"
+        ],
+        "dax_names": [
+          "Shown/Forwards",
+          "Shown/Forwards Pub",
+          "Shown/Forwards OS",
+          "Shown/Forwards SDK"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Viewable/Forwards",
+      "target_type": "formula",
+      "target_id": "formula_Viewable/Forwards",
+      "variations": [
+        "formula viewable/forwards",
+        "Viewable/Forwards OS",
+        "viewable/forwards os",
+        "how to calculate viewable/forwards sdk",
+        "formula for viewable/forwards sdk",
+        "viewable/forwards pub",
+        "calculate viewable/forwards pub",
+        "how to calculate viewable/forwards"
+      ],
+      "metadata": {
+        "name": "Viewable/Forwards",
+        "descriptions": [
+          "Viewable/Forwards",
+          "Viewable/Forwards Pub",
+          "Viewable/Forwards OS",
+          "Viewable/Forwards SDK"
+        ],
+        "metrics": [
+          "MRC Viewable",
+          "CAS Forwards"
+        ],
+        "dax_names": [
+          "Viewable/Forwards",
+          "Viewable/Forwards Pub",
+          "Viewable/Forwards OS",
+          "Viewable/Forwards SDK"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Ads Loaded/Ads Called",
+      "target_type": "formula",
+      "target_id": "formula_Ads_Loaded/Ads_Called",
+      "variations": [
+        "how to calculate ads loaded/ads called pub",
+        "ads loaded/ads called formula",
+        "how to calculate ads loaded/ads called",
+        "calculation for ads loaded/ads called",
+        "formula ads loaded/ads called",
+        "formula for ads loaded/ads called os",
+        "Ads Loaded/Ads Called Pub",
+        "Ads Loaded/Ads Called OS"
+      ],
+      "metadata": {
+        "name": "Ads Loaded/Ads Called",
+        "descriptions": [
+          "Ads Loaded/Ads Called",
+          "Ads Loaded/Ads Called Pub",
+          "Ads Loaded/Ads Called OS",
+          "Ads Loaded/Ads Called SDK"
+        ],
+        "metrics": [
+          "Ad Impressions Loaded",
+          "Ad Load Called"
+        ],
+        "dax_names": [
+          "Ads Loaded/Ads Called",
+          "Ads Loaded/Ads Called Pub",
+          "Ads Loaded/Ads Called OS",
+          "Ads Loaded/Ads Called SDK"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Rendered/Ad Loaded",
+      "target_type": "formula",
+      "target_id": "formula_Rendered/Ad_Loaded",
+      "variations": [
+        "calculation for rendered/ad loaded",
+        "rate rendered/ad loaded",
+        "Rendered/Ad_Loaded",
+        "rendered/ad loaded sdk",
+        "formula for rendered/ad loaded",
+        "rate for rendered/ad loaded",
+        "rendered/ad loaded rate",
+        "Rendered/Ad Loaded OS"
+      ],
+      "metadata": {
+        "name": "Rendered/Ad Loaded",
+        "descriptions": [
+          "Rendered/Ad Loaded",
+          "Rendered/Ad Loaded Pub",
+          "Rendered/Ad Loaded OS",
+          "Rendered/Ad Loaded SDK"
+        ],
+        "metrics": [
+          "Ad Impressions Rendered",
+          "Ad Impressions Loaded"
+        ],
+        "dax_names": [
+          "Rendered/Ad Loaded",
+          "Rendered/Ad Loaded Pub",
+          "Rendered/Ad Loaded OS",
+          "Rendered/Ad Loaded SDK"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Click Conversions",
+      "target_type": "formula",
+      "target_id": "formula_Click_Conversions",
+      "variations": [
+        "click conversions calculation",
+        "click conversions ratio",
+        "computation click conversions",
+        "how to calculate click conversions os",
+        "percentage click conversions",
+        "formula click conversions",
+        "ratio for click conversions",
+        "Click_Conversions"
+      ],
+      "metadata": {
+        "name": "Click Conversions",
+        "descriptions": [
+          "Click Conversions",
+          "Click Conversions Pub",
+          "Click Conversions OS",
+          "Click Conversions SDK"
+        ],
+        "metrics": [
+          "Landings",
+          "Clicks"
+        ],
+        "dax_names": [
+          "Click Conversions",
+          "Click Conversions Pub",
+          "Click Conversions OS",
+          "Click Conversions SDK"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "EV Enabled/Rendered",
+      "target_type": "formula",
+      "target_id": "formula_EV_Enabled/Rendered",
+      "variations": [
+        "ev enabled/rendered",
+        "percentage ev enabled/rendered",
+        "calculation for ev enabled/rendered",
+        "ev enabled/rendered formula",
+        "formula for ev enabled/rendered",
+        "ev enabled/rendered computation",
+        "EVEnabled/Rendered",
+        "ev enabled/rendered percentage"
+      ],
+      "metadata": {
+        "name": "EV Enabled/Rendered",
+        "descriptions": [
+          "EV Enabled/Rendered",
+          "EV Enabled/Rendered Pub",
+          "EV Enabled/Rendered OS",
+          "EV Enabled/Rendered SDK"
+        ],
+        "metrics": [
+          "EVC Enabled",
+          "Ad Impressions Rendered"
+        ],
+        "dax_names": [
+          "EV Enabled/Rendered",
+          "EV Enabled/Rendered Pub",
+          "EV Enabled/Rendered OS",
+          "EV Enabled/Rendered SDK"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Valid Wins/Fills",
+      "target_type": "formula",
+      "target_id": "formula_Valid_Wins/Fills",
+      "variations": [
+        "rate valid wins/fills",
+        "valid wins/fills percentage",
+        "valid wins/fills calculation",
+        "calculation valid wins/fills",
+        "rate for valid wins/fills",
+        "calculation for valid wins/fills",
+        "percentage valid wins/fills",
+        "computation for valid wins/fills"
+      ],
+      "metadata": {
+        "name": "Valid Wins/Fills",
+        "descriptions": [
+          "Valid Wins/Fills",
+          "Valid Wins/ Fills SDK"
+        ],
+        "metrics": [
+          "Valid Wins",
+          "CAS Fills"
+        ],
+        "dax_names": [
+          "Valid Wins/Fills",
+          "Valid Wins/ Fills SDK"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Rendered/Fills",
+      "target_type": "formula",
+      "target_id": "formula_Rendered/Fills",
+      "variations": [
+        "percentage for rendered/fills",
+        "rate rendered/fills",
+        "rendered/fills calculation",
+        "calculation for rendered/fills",
+        "ratio for rendered/fills",
+        "rendered/fills",
+        "computation rendered/fills",
+        "how to calculate rendered/fills"
+      ],
+      "metadata": {
+        "name": "Rendered/Fills",
+        "descriptions": [
+          "Rendered/Fills"
+        ],
+        "metrics": [
+          "Ad Impressions Rendered",
+          "CAS Fills"
+        ],
+        "dax_names": [
+          "Rendered/Fills"
+        ],
+        "type": "formula"
+      }
+    },
+    {
+      "target": "Supply_CTR",
+      "target_type": "formula",
+      "target_id": "formula_Supply_CTR",
+      "variations": [
+        "ratio supply_ctr",
+        "calculation supply_ctr",
+        "formula for supply_ctr",
+        "supply_ctr calculation",
+        "rate for supply_ctr",
+        "supply_ctr ratio",
+        "percentage supply_ctr",
+        "supply_ctr computation"
+      ],
+      "metadata": {
+        "name": "Supply_CTR",
+        "descriptions": [
+          "Supply_CTR"
+        ],
+        "metrics": [
+          "Clicks",
+          "Ad Impressions Rendered"
+        ],
+        "dax_names": [
+          "Supply_CTR"
+        ],
+        "type": "formula"
+      }
+    }
+  ],
+  "dimensions": [
+    {
+      "target": "Country",
+      "target_type": "dimension",
+      "target_id": "dimension_Country",
+      "variations": [
+        "segment for country",
+        "field for country",
+        "dimension country",
+        "list of countries for where events originate",
+        "group by list of countries for where events originate",
+        "attribute country",
+        "category country",
+        "Country"
+      ],
+      "metadata": {
+        "name": "Country",
+        "descriptions": [
+          "List of countries for where events originate"
+        ],
+        "activity_types": [
+          "Supply",
+          "Demand"
+        ],
+        "type": "dimension"
+      }
+    },
+    {
+      "target": "Inventory Channel",
+      "target_type": "dimension",
+      "target_id": "dimension_Inventory_Channel",
+      "variations": [
+        "breakdown by the demand channel",
+        "inventory channel attribute",
+        "attribute inventory channel",
+        "inventory channel segment",
+        "inventory channel dimension",
+        "Inventory Channel",
+        "InventoryChannel",
+        "field inventory channel"
+      ],
+      "metadata": {
+        "name": "Inventory Channel",
+        "descriptions": [
+          "The demand channel"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "dimension"
+      }
+    },
+    {
+      "target": "Integration Direct",
+      "target_type": "dimension",
+      "target_id": "dimension_Integration_Direct",
+      "variations": [
+        "Integration Direct",
+        "attribute for integration direct",
+        "category for integration direct",
+        "integration direct field",
+        "integration direct",
+        "filter by integration direct",
+        "IntegrationDirect",
+        "integration direct dimension"
+      ],
+      "metadata": {
+        "name": "Integration Direct",
+        "descriptions": [
+          "Integration Direct"
+        ],
+        "activity_types": [
+          "Demand"
+        ],
+        "type": "dimension"
+      }
+    },
+    {
+      "target": "Integration Method",
+      "target_type": "dimension",
+      "target_id": "dimension_Integration_Method",
+      "variations": [
+        "segment integration method",
+        "filter by integration method",
+        "attribute integration method",
+        "IntegrationMethod",
+        "group by integration method",
+        "attribute for integration method",
+        "Integration Method",
+        "segment for integration method"
+      ],
+      "metadata": {
+        "name": "Integration Method",
+        "descriptions": [
+          "Integration Method"
+        ],
+        "activity_types": [
+          "Supply",
+          "Demand"
+        ],
+        "type": "dimension"
+      }
+    },
+    {
+      "target": "HB MCO",
+      "target_type": "dimension",
+      "target_id": "dimension_HB_MCO",
+      "variations": [
+        "filter by hb mco",
+        "breakdown by hb mco",
+        "HBMCO",
+        "attribute for hb mco",
+        "segment hb mco",
+        "category hb mco",
+        "category for hb mco",
+        "group by hb mco"
+      ],
+      "metadata": {
+        "name": "HB MCO",
+        "descriptions": [
+          "HB MCO"
+        ],
+        "activity_types": [
+          "Supply",
+          "Demand"
+        ],
+        "type": "dimension"
+      }
+    },
+    {
+      "target": "OS Type",
+      "target_type": "dimension",
+      "target_id": "dimension_OS_Type",
+      "variations": [
+        "OS Type",
+        "category for os type",
+        "category os type",
+        "os type field",
+        "dimension os type",
+        "segment for os type",
+        "group by os type",
+        "field os type"
+      ],
+      "metadata": {
+        "name": "OS Type",
+        "descriptions": [
+          "OS Type"
+        ],
+        "activity_types": [
+          "Supply",
+          "Demand"
+        ],
+        "type": "dimension"
+      }
+    },
+    {
+      "target": "Placement Type",
+      "target_type": "dimension",
+      "target_id": "dimension_Placement_Type",
+      "variations": [
+        "field placement type",
+        "placement type segment",
+        "PlacementType",
+        "placement type dimension",
+        "category placement type",
+        "segment for placement type",
+        "group by placement type",
+        "filter by placement type"
+      ],
+      "metadata": {
+        "name": "Placement Type",
+        "descriptions": [
+          "Placement Type"
+        ],
+        "activity_types": [
+          "Supply",
+          "Demand"
+        ],
+        "type": "dimension"
+      }
+    },
+    {
+      "target": "Rewarded Slot",
+      "target_type": "dimension",
+      "target_id": "dimension_Rewarded_Slot",
+      "variations": [
+        "rewarded slot field",
+        "rewarded slot category",
+        "Rewarded Slot",
+        "rewarded slot attribute",
+        "rewarded slot dimension",
+        "segment rewarded slot",
+        "segment for rewarded slot",
+        "rewarded slot"
+      ],
+      "metadata": {
+        "name": "Rewarded Slot",
+        "descriptions": [
+          "Rewarded Slot"
+        ],
+        "activity_types": [
+          "Supply",
+          "Demand"
+        ],
+        "type": "dimension"
+      }
+    },
+    {
+      "target": "Limit Ad Tracking",
+      "target_type": "dimension",
+      "target_id": "dimension_Limit_Ad_Tracking",
+      "variations": [
+        "limit ad tracking attribute",
+        "dimension limit ad tracking",
+        "Limit_Ad_Tracking",
+        "limit ad tracking",
+        "group by limit ad tracking",
+        "filter by limit ad tracking",
+        "segment limit ad tracking",
+        "field for limit ad tracking"
+      ],
+      "metadata": {
+        "name": "Limit Ad Tracking",
+        "descriptions": [
+          "Limit Ad Tracking"
+        ],
+        "activity_types": [
+          "Supply",
+          "Demand"
+        ],
+        "type": "dimension"
+      }
+    },
+    {
+      "target": "Agg. Account",
+      "target_type": "dimension",
+      "target_id": "dimension_Agg._Account",
+      "variations": [
+        "agg. account attribute",
+        "agg. account field",
+        "breakdown by aggregate account",
+        "segment for agg. account",
+        "Agg. Account",
+        "category agg. account",
+        "segment agg. account",
+        "field agg. account"
+      ],
+      "metadata": {
+        "name": "Agg. Account",
+        "descriptions": [
+          "Aggregate Account"
+        ],
+        "activity_types": [
+          "Supply"
+        ],
+        "type": "dimension"
+      }
+    }
+  ],
+  "dimension_values": [
+    {
+      "target": "Country: France",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_Country_France",
+      "variations": [
+        "France",
+        "Country equals France",
+        "Country France",
+        "France in Country",
+        "show Country France",
+        "france",
+        "where Country is France",
+        "filter Country = France"
+      ],
+      "metadata": {
+        "dimension": "Country",
+        "value": "France",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "Country: Brazil",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_Country_Brazil",
+      "variations": [
+        "where Country is Brazil",
+        "Brazil",
+        "brazil",
+        "Brazil in Country",
+        "Country equals Brazil",
+        "Country Brazil",
+        "filter Country = Brazil",
+        "show Country Brazil"
+      ],
+      "metadata": {
+        "dimension": "Country",
+        "value": "Brazil",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "Country: Canada",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_Country_Canada",
+      "variations": [
+        "canada",
+        "show Country Canada",
+        "Country Canada",
+        "Canada",
+        "where Country is Canada",
+        "Country equals Canada",
+        "Canada in Country",
+        "filter Country = Canada"
+      ],
+      "metadata": {
+        "dimension": "Country",
+        "value": "Canada",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "Country: Germany",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_Country_Germany",
+      "variations": [
+        "Country Germany",
+        "show Country Germany",
+        "where Country is Germany",
+        "Germany",
+        "Country equals Germany",
+        "Germany in Country",
+        "filter Country = Germany",
+        "germany"
+      ],
+      "metadata": {
+        "dimension": "Country",
+        "value": "Germany",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "Country: others United Kingdom",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_Country_others_United_Kingdom",
+      "variations": [
+        "show Country others United Kingdom",
+        "others united kingdom",
+        "others United Kingdom in Country",
+        "others United Kingdom",
+        "where Country is others United Kingdom",
+        "Country equals others United Kingdom",
+        "filter Country = others United Kingdom",
+        "Country others United Kingdom"
+      ],
+      "metadata": {
+        "dimension": "Country",
+        "value": "others United Kingdom",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "Inventory Channel: desktop_web",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_Inventory_Channel_desktop_web",
+      "variations": [
+        "filter Inventory Channel = desktop_web",
+        "desktop_web in Inventory Channel",
+        "desktop_web",
+        "show Inventory Channel desktop_web",
+        "where Inventory Channel is desktop_web",
+        "Inventory Channel desktop_web",
+        "Inventory Channel equals desktop_web"
+      ],
+      "metadata": {
+        "dimension": "Inventory Channel",
+        "value": "desktop_web",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "Inventory Channel: Blended_in_game",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_Inventory_Channel_Blended_in_game",
+      "variations": [
+        "Blended_in_game in Inventory Channel",
+        "Blended_in_game",
+        "Inventory Channel Blended_in_game",
+        "filter Inventory Channel = Blended_in_game",
+        "show Inventory Channel Blended_in_game",
+        "where Inventory Channel is Blended_in_game",
+        "blended_in_game",
+        "Inventory Channel equals Blended_in_game"
+      ],
+      "metadata": {
+        "dimension": "Inventory Channel",
+        "value": "Blended_in_game",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "Inventory Channel: mobile_web",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_Inventory_Channel_mobile_web",
+      "variations": [
+        "Inventory Channel mobile_web",
+        "filter Inventory Channel = mobile_web",
+        "mobile_web",
+        "show Inventory Channel mobile_web",
+        "mobile_web in Inventory Channel",
+        "where Inventory Channel is mobile_web",
+        "Inventory Channel equals mobile_web"
+      ],
+      "metadata": {
+        "dimension": "Inventory Channel",
+        "value": "mobile_web",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "Inventory Channel: connected_tv",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_Inventory_Channel_connected_tv",
+      "variations": [
+        "filter Inventory Channel = connected_tv",
+        "Inventory Channel equals connected_tv",
+        "connected_tv",
+        "where Inventory Channel is connected_tv",
+        "show Inventory Channel connected_tv",
+        "Inventory Channel connected_tv",
+        "connected_tv in Inventory Channel"
+      ],
+      "metadata": {
+        "dimension": "Inventory Channel",
+        "value": "connected_tv",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "Integration Direct: p_corona",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_Integration_Direct_p_corona",
+      "variations": [
+        "filter Integration Direct = p_corona",
+        "show Integration Direct p_corona",
+        "where Integration Direct is p_corona",
+        "p_corona in Integration Direct",
+        "Integration Direct equals p_corona",
+        "p_corona",
+        "Integration Direct p_corona"
+      ],
+      "metadata": {
+        "dimension": "Integration Direct",
+        "value": "p_corona",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "Integration Direct: c_heyzap",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_Integration_Direct_c_heyzap",
+      "variations": [
+        "filter Integration Direct = c_heyzap",
+        "Integration Direct equals c_heyzap",
+        "show Integration Direct c_heyzap",
+        "Integration Direct c_heyzap",
+        "c_heyzap",
+        "c_heyzap in Integration Direct",
+        "where Integration Direct is c_heyzap"
+      ],
+      "metadata": {
+        "dimension": "Integration Direct",
+        "value": "c_heyzap",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "Integration Direct: s_terajima",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_Integration_Direct_s_terajima",
+      "variations": [
+        "Integration Direct s_terajima",
+        "Integration Direct equals s_terajima",
+        "show Integration Direct s_terajima",
+        "where Integration Direct is s_terajima",
+        "s_terajima in Integration Direct",
+        "filter Integration Direct = s_terajima",
+        "s_terajima"
+      ],
+      "metadata": {
+        "dimension": "Integration Direct",
+        "value": "s_terajima",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "Integration Direct: c_vmax",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_Integration_Direct_c_vmax",
+      "variations": [
+        "where Integration Direct is c_vmax",
+        "filter Integration Direct = c_vmax",
+        "Integration Direct c_vmax",
+        "Integration Direct equals c_vmax",
+        "show Integration Direct c_vmax",
+        "c_vmax in Integration Direct",
+        "c_vmax"
+      ],
+      "metadata": {
+        "dimension": "Integration Direct",
+        "value": "c_vmax",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "Integration Direct: c_applovin",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_Integration_Direct_c_applovin",
+      "variations": [
+        "Integration Direct equals c_applovin",
+        "Integration Direct c_applovin",
+        "c_applovin in Integration Direct",
+        "show Integration Direct c_applovin",
+        "filter Integration Direct = c_applovin",
+        "c_applovin",
+        "where Integration Direct is c_applovin"
+      ],
+      "metadata": {
+        "dimension": "Integration Direct",
+        "value": "c_applovin",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "Integration Method: SDK",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_Integration_Method_SDK",
+      "variations": [
+        "show Integration Method SDK",
+        "Integration Method equals SDK",
+        "sdk",
+        "where Integration Method is SDK",
+        "SDK in Integration Method",
+        "filter Integration Method = SDK",
+        "SDK",
+        "Integration Method SDK"
+      ],
+      "metadata": {
+        "dimension": "Integration Method",
+        "value": "SDK",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "Integration Method: API",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_Integration_Method_API",
+      "variations": [
+        "api",
+        "API in Integration Method",
+        "Integration Method equals API",
+        "API",
+        "show Integration Method API",
+        "where Integration Method is API",
+        "Integration Method API",
+        "filter Integration Method = API"
+      ],
+      "metadata": {
+        "dimension": "Integration Method",
+        "value": "API",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "Integration Method: UNKNOWN",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_Integration_Method_UNKNOWN",
+      "variations": [
+        "show Integration Method UNKNOWN",
+        "Integration Method equals UNKNOWN",
+        "Integration Method UNKNOWN",
+        "filter Integration Method = UNKNOWN",
+        "UNKNOWN in Integration Method",
+        "UNKNOWN",
+        "where Integration Method is UNKNOWN",
+        "unknown"
+      ],
+      "metadata": {
+        "dimension": "Integration Method",
+        "value": "UNKNOWN",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "Integration Method: API_VAST",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_Integration_Method_API_VAST",
+      "variations": [
+        "filter Integration Method = API_VAST",
+        "where Integration Method is API_VAST",
+        "Integration Method equals API_VAST",
+        "API_VAST in Integration Method",
+        "API_VAST",
+        "api_vast",
+        "Integration Method API_VAST",
+        "show Integration Method API_VAST"
+      ],
+      "metadata": {
+        "dimension": "Integration Method",
+        "value": "API_VAST",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "HB MCO: True",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_HB_MCO_True",
+      "variations": [
+        "filter HB MCO = True",
+        "show HB MCO True",
+        "True in HB MCO",
+        "True",
+        "HB MCO True",
+        "where HB MCO is True",
+        "HB MCO equals True",
+        "true"
+      ],
+      "metadata": {
+        "dimension": "HB MCO",
+        "value": "True",
+        "type": "dimension_value"
+      }
+    },
+    {
+      "target": "HB MCO: False",
+      "target_type": "dimension_value",
+      "target_id": "dim_value_HB_MCO_False",
+      "variations": [
+        "show HB MCO False",
+        "HB MCO False",
+        "HB MCO equals False",
+        "False in HB MCO",
+        "false",
+        "False",
+        "where HB MCO is False",
+        "filter HB MCO = False"
+      ],
+      "metadata": {
+        "dimension": "HB MCO",
+        "value": "False",
+        "type": "dimension_value"
+      }
+    }
+  ]
+}
